@@ -1,5 +1,7 @@
 # List custom property values for organization repositories
 
+`get /orgs/{org}/properties/values`
+
 Lists organization repositories with all of their custom property values.
 Organization members can read these properties.
 

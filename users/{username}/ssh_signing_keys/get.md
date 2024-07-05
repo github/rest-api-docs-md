@@ -1,5 +1,7 @@
 # List SSH signing keys for a user
 
+`get /users/{username}/ssh_signing_keys`
+
 Lists the SSH signing keys for a user. This operation is accessible by anyone.
 
 ## Operation Object

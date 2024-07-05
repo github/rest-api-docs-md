@@ -1,5 +1,7 @@
 # List deployments
 
+`get /repos/{owner}/{repo}/deployments`
+
 Simple filtering of deployments is available via query parameters:
 
 ## Operation Object

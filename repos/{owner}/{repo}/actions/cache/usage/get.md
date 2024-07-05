@@ -1,5 +1,7 @@
 # Get GitHub Actions cache usage for a repository
 
+`get /repos/{owner}/{repo}/actions/cache/usage`
+
 Gets GitHub Actions cache usage for a repository.
 The data fetched using this API is refreshed approximately every 5 minutes, so values returned from this endpoint may take at least 5 minutes to get updated.
 

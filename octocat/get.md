@@ -1,5 +1,7 @@
 # Get Octocat
 
+`get /octocat`
+
 Get the octocat as ASCII art
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # Get a branch
 
+`get /repos/{owner}/{repo}/branches/{branch}`
+
 
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # Get an organization public key
 
+`get /orgs/{org}/actions/secrets/public-key`
+
 Gets your public key, which you need to encrypt secrets. You need to
 encrypt a secret before you can create or update secrets.
 

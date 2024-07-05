@@ -1,5 +1,7 @@
 # List environment variables
 
+`get /repos/{owner}/{repo}/environments/{environment_name}/variables`
+
 Lists all environment variables.
 
 Authenticated users must have collaborator access to a repository to create, update, or read variables.

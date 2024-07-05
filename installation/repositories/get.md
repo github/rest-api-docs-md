@@ -1,5 +1,7 @@
 # List repositories accessible to the app installation
 
+`get /installation/repositories`
+
 List repositories that an app installation can access.
 
 ## Operation Object

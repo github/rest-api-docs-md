@@ -1,5 +1,7 @@
 # Get the weekly commit activity
 
+`get /repos/{owner}/{repo}/stats/code_frequency`
+
 
 Returns a weekly aggregate of the number of additions and deletions pushed to a repository.
 

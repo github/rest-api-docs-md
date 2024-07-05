@@ -1,5 +1,7 @@
 # List security manager teams
 
+`get /orgs/{org}/security-managers`
+
 Lists teams that are security managers for an organization. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."
 
 The authenticated user must be an administrator or security manager for the organization to use this endpoint.

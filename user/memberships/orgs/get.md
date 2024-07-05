@@ -1,5 +1,7 @@
 # List organization memberships for the authenticated user
 
+`get /user/memberships/orgs`
+
 Lists all of the authenticated user's organization memberships.
 
 ## Operation Object

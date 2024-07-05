@@ -1,5 +1,7 @@
 # Get default workflow permissions for a repository
 
+`get /repos/{owner}/{repo}/actions/permissions/workflow`
+
 Gets the default workflow permissions granted to the `GITHUB_TOKEN` when running workflows in a repository,
 as well as if GitHub Actions can submit approving pull request reviews.
 For more information, see "[Setting the permissions of the GITHUB_TOKEN for your repository](https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#setting-the-permissions-of-the-github_token-for-your-repository)."

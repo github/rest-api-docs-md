@@ -1,5 +1,7 @@
 # Get a repository rule suite
 
+`get /repos/{owner}/{repo}/rulesets/rule-suites/{rule_suite_id}`
+
 Gets information about a suite of rule evaluations from within a repository.
 For more information, see "[Managing rulesets for a repository](https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/managing-rulesets-for-a-repository#viewing-insights-for-rulesets)."
 

@@ -1,5 +1,7 @@
 # List app installations accessible to the user access token
 
+`get /user/installations`
+
 Lists installations of your GitHub App that the authenticated user has explicit permission (`:read`, `:write`, or `:admin`) to access.
 
 The authenticated user has explicit permission to access repositories they own, repositories where they are a collaborator, and repositories that they can access through an organization membership.

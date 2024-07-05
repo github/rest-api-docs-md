@@ -1,5 +1,7 @@
 # List gist commits
 
+`get /gists/{gist_id}/commits`
+
 
 
 ## Operation Object

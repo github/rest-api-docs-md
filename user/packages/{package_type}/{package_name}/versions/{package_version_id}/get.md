@@ -1,5 +1,7 @@
 # Get a package version for the authenticated user
 
+`get /user/packages/{package_type}/{package_name}/versions/{package_version_id}`
+
 Gets a specific package version for a package owned by the authenticated user.
 
 OAuth app tokens and personal access tokens (classic) need the `read:packages` scope to use this endpoint. If the `package_type` belongs to a GitHub Packages registry that only supports repository-scoped permissions, the `repo` scope is also required. For the list of these registries, see "[About permissions for GitHub Packages](https://docs.github.com/packages/learn-github-packages/about-permissions-for-github-packages#permissions-for-repository-scoped-packages)."

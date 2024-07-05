@@ -1,5 +1,7 @@
 # Get an organization
 
+`get /orgs/{org}`
+
 Gets information about an organization.
 
 When the value of `two_factor_requirement_enabled` is `true`, the organization requires all members, billing managers, and outside collaborators to enable [two-factor authentication](https://docs.github.com/articles/securing-your-account-with-two-factor-authentication-2fa/).

@@ -1,5 +1,7 @@
 # List stargazers
 
+`get /repos/{owner}/{repo}/stargazers`
+
 Lists the people that have starred the repository.
 
 This endpoint supports the following custom media types. For more information, see "[Media types](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types)."

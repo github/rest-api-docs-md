@@ -1,5 +1,7 @@
 # Get community profile metrics
 
+`get /repos/{owner}/{repo}/community/profile`
+
 Returns all community profile metrics for a repository. The repository cannot be a fork.
 
 The returned metrics include an overall health score, the repository description, the presence of documentation, the

@@ -1,5 +1,7 @@
 # Get shared storage billing for a user
 
+`get /users/{username}/settings/billing/shared-storage`
+
 Gets the estimated paid and estimated total storage used for GitHub Actions and GitHub Packages.
 
 Paid minutes only apply to packages stored for private repositories. For more information, see "[Managing billing for GitHub Packages](https://docs.github.com/github/setting-up-and-managing-billing-and-payments-on-github/managing-billing-for-github-packages)."

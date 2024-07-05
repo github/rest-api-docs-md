@@ -1,5 +1,7 @@
 # List workflow run artifacts
 
+`get /repos/{owner}/{repo}/actions/runs/{run_id}/artifacts`
+
 Lists artifacts for a workflow run.
 
 Anyone with read access to the repository can use this endpoint.

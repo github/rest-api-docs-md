@@ -1,5 +1,7 @@
 # Get a deployment branch policy
 
+`get /repos/{owner}/{repo}/environments/{environment_name}/deployment-branch-policies/{branch_policy_id}`
+
 Gets a deployment branch or tag policy for an environment.
 
 Anyone with read access to the repository can use this endpoint.

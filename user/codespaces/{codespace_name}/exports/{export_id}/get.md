@@ -1,5 +1,7 @@
 # Get details about a codespace export
 
+`get /user/codespaces/{codespace_name}/exports/{export_id}`
+
 Gets information about an export of a codespace.
 
 OAuth app tokens and personal access tokens (classic) need the `codespace` scope to use this endpoint.

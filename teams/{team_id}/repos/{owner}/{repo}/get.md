@@ -1,5 +1,7 @@
 # Check team permissions for a repository (Legacy)
 
+`get /teams/{team_id}/repos/{owner}/{repo}`
+
 **Note**: Repositories inherited through a parent team will also be checked.
 
 **Deprecation Notice:** This endpoint route is deprecated and will be removed from the Teams API. We recommend migrating your existing code to use the new [Check team permissions for a repository](https://docs.github.com/rest/teams/teams#check-team-permissions-for-a-repository) endpoint.

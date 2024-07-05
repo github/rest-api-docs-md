@@ -1,5 +1,7 @@
 # Get the Zen of GitHub
 
+`get /zen`
+
 Get a random sentence from the Zen of GitHub
 
 ## Operation Object

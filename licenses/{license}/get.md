@@ -1,5 +1,7 @@
 # Get a license
 
+`get /licenses/{license}`
+
 Gets information about a specific license. For more information, see "[Licensing a repository ](https://docs.github.com/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)."
 
 ## Operation Object

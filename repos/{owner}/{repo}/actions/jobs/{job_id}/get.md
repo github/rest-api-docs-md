@@ -1,5 +1,7 @@
 # Get a job for a workflow run
 
+`get /repos/{owner}/{repo}/actions/jobs/{job_id}`
+
 Gets a specific job in a workflow run.
 
 Anyone with read access to the repository can use this endpoint.

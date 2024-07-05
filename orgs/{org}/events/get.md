@@ -1,5 +1,7 @@
 # List public organization events
 
+`get /orgs/{org}/events`
+
 
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # List secret scanning alerts for an organization
 
+`get /orgs/{org}/secret-scanning/alerts`
+
 Lists secret scanning alerts for eligible repositories in an organization, from newest to oldest.
 
 The authenticated user must be an administrator or security manager for the organization to use this endpoint.

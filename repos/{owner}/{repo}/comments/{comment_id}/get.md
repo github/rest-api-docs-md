@@ -1,5 +1,7 @@
 # Get a commit comment
 
+`get /repos/{owner}/{repo}/comments/{comment_id}`
+
 Gets a specified commit comment.
 
 This endpoint supports the following custom media types. For more information, see "[Media types](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types)."

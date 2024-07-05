@@ -1,5 +1,7 @@
 # Get all autolinks of a repository
 
+`get /repos/{owner}/{repo}/autolinks`
+
 Gets all autolinks that are configured for a repository.
 
 Information about autolinks are only available to repository administrators.

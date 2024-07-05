@@ -1,5 +1,7 @@
 # Get Copilot seat information and settings for an organization
 
+`get /orgs/{org}/copilot/billing`
+
 **Note**: This endpoint is in beta and is subject to change.
 
 Gets information about an organization's Copilot subscription, including seat breakdown

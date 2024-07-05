@@ -1,5 +1,7 @@
 # List repositories in an organization migration
 
+`get /orgs/{org}/migrations/{migration_id}/repositories`
+
 List all the repositories for this organization migration.
 
 ## Operation Object

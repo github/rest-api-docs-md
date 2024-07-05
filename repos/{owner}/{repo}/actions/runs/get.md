@@ -1,5 +1,7 @@
 # List workflow runs for a repository
 
+`get /repos/{owner}/{repo}/actions/runs`
+
 Lists all workflow runs for a repository. You can use parameters to narrow the list of results. For more information about using parameters, see [Parameters](https://docs.github.com/rest/guides/getting-started-with-the-rest-api#parameters).
 
 Anyone with read access to the repository can use this endpoint.

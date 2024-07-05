@@ -1,5 +1,7 @@
 # List discussion comments (Legacy)
 
+`get /teams/{team_id}/discussions/{discussion_number}/comments`
+
 **Deprecation Notice:** This endpoint route is deprecated and will be removed from the Teams API. We recommend migrating your existing code to use the new [List discussion comments](https://docs.github.com/rest/teams/discussion-comments#list-discussion-comments) endpoint.
 
 List all comments on a team discussion.

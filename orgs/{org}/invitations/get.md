@@ -1,5 +1,7 @@
 # List pending organization invitations
 
+`get /orgs/{org}/invitations`
+
 The return hash contains a `role` field which refers to the Organization
 Invitation role and will be one of the following values: `direct_member`, `admin`,
 `billing_manager`, or `hiring_manager`. If the invitee is not a GitHub

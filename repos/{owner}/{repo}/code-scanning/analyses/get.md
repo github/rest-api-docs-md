@@ -1,5 +1,7 @@
 # List code scanning analyses for a repository
 
+`get /repos/{owner}/{repo}/code-scanning/analyses`
+
 Lists the details of all code scanning analyses for a repository,
 starting with the most recent.
 The response is paginated and you can use the `page` and `per_page` parameters

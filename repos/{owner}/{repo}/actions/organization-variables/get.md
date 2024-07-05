@@ -1,5 +1,7 @@
 # List repository organization variables
 
+`get /repos/{owner}/{repo}/actions/organization-variables`
+
 Lists all organization variables shared with a repository.
 
 Authenticated users must have collaborator access to a repository to create, update, or read variables.

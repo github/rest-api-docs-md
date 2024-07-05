@@ -1,5 +1,7 @@
 # List watchers
 
+`get /repos/{owner}/{repo}/subscribers`
+
 Lists the people watching the specified repository.
 
 ## Operation Object

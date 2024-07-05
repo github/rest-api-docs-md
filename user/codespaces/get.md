@@ -1,5 +1,7 @@
 # List codespaces for the authenticated user
 
+`get /user/codespaces`
+
 Lists the authenticated user's codespaces.
 
 OAuth app tokens and personal access tokens (classic) need the `codespace` scope to use this endpoint.

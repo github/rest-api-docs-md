@@ -1,5 +1,7 @@
 # Get all codes of conduct
 
+`get /codes_of_conduct`
+
 Returns array of all GitHub's codes of conduct.
 
 ## Operation Object

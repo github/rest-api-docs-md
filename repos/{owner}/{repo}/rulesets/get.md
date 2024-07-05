@@ -1,5 +1,7 @@
 # Get all repository rulesets
 
+`get /repos/{owner}/{repo}/rulesets`
+
 Get all the rulesets for a repository.
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # Get an organization migration status
 
+`get /orgs/{org}/migrations/{migration_id}`
+
 Fetches the status of a migration.
 
 The `state` of a migration can be one of the following values:

@@ -1,5 +1,7 @@
 # List attestations
 
+`get /repos/{owner}/{repo}/attestations/{subject_digest}`
+
 List a collection of artifact attestations with a given subject digest that are associated with a repository.
 
 The authenticated user making the request must have read access to the repository. In addition, when using a fine-grained access token the `attestations:read` permission is required.

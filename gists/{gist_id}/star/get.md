@@ -1,5 +1,7 @@
 # Check if a gist is starred
 
+`get /gists/{gist_id}/star`
+
 
 
 ## Operation Object

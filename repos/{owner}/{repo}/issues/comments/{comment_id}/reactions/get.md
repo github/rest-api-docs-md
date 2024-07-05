@@ -1,5 +1,7 @@
 # List reactions for an issue comment
 
+`get /repos/{owner}/{repo}/issues/comments/{comment_id}/reactions`
+
 List the reactions to an [issue comment](https://docs.github.com/rest/issues/comments#get-an-issue-comment).
 
 ## Operation Object

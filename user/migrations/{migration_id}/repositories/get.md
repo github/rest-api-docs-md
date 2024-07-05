@@ -1,5 +1,7 @@
 # List repositories for a user migration
 
+`get /user/migrations/{migration_id}/repositories`
+
 Lists all the repositories for this user migration.
 
 ## Operation Object

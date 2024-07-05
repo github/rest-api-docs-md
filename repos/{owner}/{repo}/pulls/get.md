@@ -1,5 +1,7 @@
 # List pull requests
 
+`get /repos/{owner}/{repo}/pulls`
+
 Lists pull requests in a specified repository.
 
 Draft pull requests are available in public repositories with GitHub

@@ -1,5 +1,7 @@
 # List available machine types for a repository
 
+`get /repos/{owner}/{repo}/codespaces/machines`
+
 List the machine types available for a given repository based on its configuration.
 
 OAuth app tokens and personal access tokens (classic) need the `codespace` scope to use this endpoint.

@@ -1,5 +1,7 @@
 # Deprecated - List tag protection states for a repository
 
+`get /repos/{owner}/{repo}/tags/protection`
+
 **Note**: This operation is deprecated and will be removed after August 30th 2024
 Use the "[Repository Rulesets](https://docs.github.com/rest/repos/rules#get-all-repository-rulesets)" endpoint instead.
 

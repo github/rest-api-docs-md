@@ -1,5 +1,7 @@
 # Get a custom property for an organization
 
+`get /orgs/{org}/properties/schema/{custom_property_name}`
+
 Gets a custom property that is defined for an organization.
 Organization members can read these properties.
 

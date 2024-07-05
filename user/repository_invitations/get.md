@@ -1,5 +1,7 @@
 # List repository invitations for the authenticated user
 
+`get /user/repository_invitations`
+
 When authenticating as a user, this endpoint will list all currently open repository invitations for that user.
 
 ## Operation Object

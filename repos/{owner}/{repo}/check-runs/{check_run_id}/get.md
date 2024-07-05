@@ -1,5 +1,7 @@
 # Get a check run
 
+`get /repos/{owner}/{repo}/check-runs/{check_run_id}`
+
 Gets a single check run using its `id`.
 
 **Note:** The Checks API only looks for pushes in the repository where the check suite or check run were created. Pushes to a branch in a forked repository are not detected and return an empty `pull_requests` array.

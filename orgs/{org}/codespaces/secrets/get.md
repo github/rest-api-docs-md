@@ -1,5 +1,7 @@
 # List organization secrets
 
+`get /orgs/{org}/codespaces/secrets`
+
 Lists all Codespaces development environment secrets available at the organization-level without revealing their encrypted
 values.
 

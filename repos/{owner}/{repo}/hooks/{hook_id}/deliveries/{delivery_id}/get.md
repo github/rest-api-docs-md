@@ -1,5 +1,7 @@
 # Get a delivery for a repository webhook
 
+`get /repos/{owner}/{repo}/hooks/{hook_id}/deliveries/{delivery_id}`
+
 Returns a delivery for a webhook configured in a repository.
 
 ## Operation Object

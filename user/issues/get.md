@@ -1,5 +1,7 @@
 # List user account issues assigned to the authenticated user
 
+`get /user/issues`
+
 List issues across owned and member repositories assigned to the authenticated user.
 
 **Note**: GitHub's REST API considers every pull request an issue, but not every issue is a pull request. For this

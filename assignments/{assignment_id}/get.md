@@ -1,5 +1,7 @@
 # Get an assignment
 
+`get /assignments/{assignment_id}`
+
 Gets a GitHub Classroom assignment. Assignment will only be returned if the current user is an administrator of the GitHub Classroom for the assignment.
 
 ## Operation Object

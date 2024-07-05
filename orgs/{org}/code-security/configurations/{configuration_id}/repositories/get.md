@@ -1,5 +1,7 @@
 # Get repositories associated with a code security configuration
 
+`get /orgs/{org}/code-security/configurations/{configuration_id}/repositories`
+
 Lists the repositories associated with a code security configuration in an organization.
 
 The authenticated user must be an administrator or security manager for the organization to use this endpoint.

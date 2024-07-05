@@ -1,5 +1,7 @@
 # Download an organization migration archive
 
+`get /orgs/{org}/migrations/{migration_id}/archive`
+
 Fetches the URL to a migration archive.
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # List selected repositories for a user secret
 
+`get /user/codespaces/secrets/{secret_name}/repositories`
+
 List the repositories that have been granted the ability to use a user's development environment secret.
 
 The authenticated user must have Codespaces access to use this endpoint.

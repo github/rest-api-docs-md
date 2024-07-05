@@ -1,5 +1,7 @@
 # Check if a user is blocked by an organization
 
+`get /orgs/{org}/blocks/{username}`
+
 Returns a 204 if the given user is blocked by the given organization. Returns a 404 if the organization is not blocking the user, or if the user account has been identified as spam by GitHub.
 
 ## Operation Object

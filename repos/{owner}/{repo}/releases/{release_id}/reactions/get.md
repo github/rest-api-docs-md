@@ -1,5 +1,7 @@
 # List reactions for a release
 
+`get /repos/{owner}/{repo}/releases/{release_id}/reactions`
+
 List the reactions to a [release](https://docs.github.com/rest/releases/releases#get-a-release).
 
 ## Operation Object

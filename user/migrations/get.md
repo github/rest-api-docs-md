@@ -1,5 +1,7 @@
 # List user migrations
 
+`get /user/migrations`
+
 Lists all migrations a user has started.
 
 ## Operation Object

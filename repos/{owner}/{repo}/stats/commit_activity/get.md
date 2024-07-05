@@ -1,5 +1,7 @@
 # Get the last year of commit activity
 
+`get /repos/{owner}/{repo}/stats/commit_activity`
+
 Returns the last year of commit activity grouped by week. The `days` array is a group of commits per day, starting on `Sunday`.
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # List organization invitation teams
 
+`get /orgs/{org}/invitations/{invitation_id}/teams`
+
 List all teams associated with an invitation. In order to see invitations in an organization, the authenticated user must be an organization owner.
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # Get default code security configurations
 
+`get /orgs/{org}/code-security/configurations/defaults`
+
 Lists the default code security configurations for an organization.
 
 The authenticated user must be an administrator or security manager for the organization to use this endpoint.

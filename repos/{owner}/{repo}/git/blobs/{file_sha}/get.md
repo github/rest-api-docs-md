@@ -1,5 +1,7 @@
 # Get a blob
 
+`get /repos/{owner}/{repo}/git/blobs/{file_sha}`
+
 The `content` in the response will always be Base64 encoded.
 
 This endpoint supports the following custom media types. For more information, see "[Media types](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types)."

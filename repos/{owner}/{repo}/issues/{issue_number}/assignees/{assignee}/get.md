@@ -1,5 +1,7 @@
 # Check if a user can be assigned to a issue
 
+`get /repos/{owner}/{repo}/issues/{issue_number}/assignees/{assignee}`
+
 Checks if a user has permission to be assigned to a specific issue.
 
 If the `assignee` can be assigned to this issue, a `204` status code with no content is returned.

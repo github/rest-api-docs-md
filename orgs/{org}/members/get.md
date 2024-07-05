@@ -1,5 +1,7 @@
 # List organization members
 
+`get /orgs/{org}/members`
+
 List all users who are members of an organization. If the authenticated user is also a member of this organization then both concealed and public members will be returned.
 
 ## Operation Object

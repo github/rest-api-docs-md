@@ -1,5 +1,7 @@
 # List requests to access organization resources with fine-grained personal access tokens
 
+`get /orgs/{org}/personal-access-token-requests`
+
 Lists requests from organization members to access organization resources with a fine-grained personal access token.
 
 Only GitHub Apps can use this endpoint.

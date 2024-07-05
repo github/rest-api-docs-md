@@ -1,5 +1,7 @@
 # Get a code security configuration
 
+`get /orgs/{org}/code-security/configurations/{configuration_id}`
+
 Gets a code security configuration available in an organization.
 
 The authenticated user must be an administrator or security manager for the organization to use this endpoint.

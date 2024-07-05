@@ -1,5 +1,7 @@
 # Get an environment variable
 
+`get /repos/{owner}/{repo}/environments/{environment_name}/variables/{name}`
+
 Gets a specific variable in an environment.
 
 Authenticated users must have collaborator access to a repository to create, update, or read variables.

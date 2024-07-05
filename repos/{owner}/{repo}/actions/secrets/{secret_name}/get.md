@@ -1,5 +1,7 @@
 # Get a repository secret
 
+`get /repos/{owner}/{repo}/actions/secrets/{secret_name}`
+
 Gets a single repository secret without revealing its encrypted value.
 
 The authenticated user must have collaborator access to the repository to use this endpoint.

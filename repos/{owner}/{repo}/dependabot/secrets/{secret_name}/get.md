@@ -1,5 +1,7 @@
 # Get a repository secret
 
+`get /repos/{owner}/{repo}/dependabot/secrets/{secret_name}`
+
 Gets a single repository secret without revealing its encrypted value.
 
 OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.

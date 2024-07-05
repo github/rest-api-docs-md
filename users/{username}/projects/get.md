@@ -1,5 +1,7 @@
 # List user projects
 
+`get /users/{username}/projects`
+
 Lists projects for a user.
 
 ## Operation Object

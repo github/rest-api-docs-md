@@ -1,5 +1,7 @@
 # List forks
 
+`get /repos/{owner}/{repo}/forks`
+
 
 
 ## Operation Object

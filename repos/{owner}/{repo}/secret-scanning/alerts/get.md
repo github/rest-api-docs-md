@@ -1,5 +1,7 @@
 # List secret scanning alerts for a repository
 
+`get /repos/{owner}/{repo}/secret-scanning/alerts`
+
 Lists secret scanning alerts for an eligible repository, from newest to oldest.
 
 The authenticated user must be an administrator for the repository or for the organization that owns the repository to use this endpoint.

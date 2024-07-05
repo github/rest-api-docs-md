@@ -1,5 +1,7 @@
 # Get an artifact
 
+`get /repos/{owner}/{repo}/actions/artifacts/{artifact_id}`
+
 Gets a specific artifact for a workflow run.
 
 Anyone with read access to the repository can use this endpoint.

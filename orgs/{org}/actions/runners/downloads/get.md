@@ -1,5 +1,7 @@
 # List runner applications for an organization
 
+`get /orgs/{org}/actions/runners/downloads`
+
 Lists binaries for the runner application that you can download and run.
 
 Authenticated users must have admin access to the organization to use this endpoint.

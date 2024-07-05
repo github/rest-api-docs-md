@@ -1,5 +1,7 @@
 # List assignments for a classroom
 
+`get /classrooms/{classroom_id}/assignments`
+
 Lists GitHub Classroom assignments for a classroom. Assignments will only be returned if the current user is an administrator of the GitHub Classroom.
 
 ## Operation Object

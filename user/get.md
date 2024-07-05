@@ -1,5 +1,7 @@
 # Get the authenticated user
 
+`get /user`
+
 OAuth app tokens and personal access tokens (classic) need the `user` scope in order for the response to include private profile information.
 
 ## Operation Object

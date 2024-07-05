@@ -1,5 +1,7 @@
 # List environment secrets
 
+`get /repos/{owner}/{repo}/environments/{environment_name}/secrets`
+
 Lists all secrets available in an environment without revealing their
 encrypted values.
 

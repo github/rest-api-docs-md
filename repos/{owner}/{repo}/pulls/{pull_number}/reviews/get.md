@@ -1,5 +1,7 @@
 # List reviews for a pull request
 
+`get /repos/{owner}/{repo}/pulls/{pull_number}/reviews`
+
 Lists all reviews for a specified pull request. The list of reviews returns in chronological order.
 
 This endpoint supports the following custom media types. For more information, see "[Media types](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types)."

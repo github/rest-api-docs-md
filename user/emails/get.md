@@ -1,5 +1,7 @@
 # List email addresses for the authenticated user
 
+`get /user/emails`
+
 Lists all of your email addresses, and specifies which one is visible
 to the public.
 

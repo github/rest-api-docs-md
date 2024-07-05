@@ -1,5 +1,7 @@
 # List repositories accessible to the user access token
 
+`get /user/installations/{installation_id}/repositories`
+
 List repositories that the authenticated user has explicit permission (`:read`, `:write`, or `:admin`) to access for an installation.
 
 The authenticated user has explicit permission to access repositories they own, repositories where they are a collaborator, and repositories that they can access through an organization membership.

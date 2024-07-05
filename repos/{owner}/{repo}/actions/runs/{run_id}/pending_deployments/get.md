@@ -1,5 +1,7 @@
 # Get pending deployments for a workflow run
 
+`get /repos/{owner}/{repo}/actions/runs/{run_id}/pending_deployments`
+
 Get all deployment environments for a workflow run that are waiting for protection rules to pass.
 
 Anyone with read access to the repository can use this endpoint.

@@ -1,5 +1,7 @@
 # Get an issue event
 
+`get /repos/{owner}/{repo}/issues/events/{event_id}`
+
 Gets a single event by the event id.
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # List labels for issues in a milestone
 
+`get /repos/{owner}/{repo}/milestones/{milestone_number}/labels`
+
 Lists labels for issues in a milestone.
 
 ## Operation Object

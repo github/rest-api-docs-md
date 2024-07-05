@@ -1,5 +1,7 @@
 # Download an artifact
 
+`get /repos/{owner}/{repo}/actions/artifacts/{artifact_id}/{archive_format}`
+
 Gets a redirect URL to download an archive for a repository. This URL expires after 1 minute. Look for `Location:` in
 the response header to find the URL for the download. The `:archive_format` must be `zip`.
 

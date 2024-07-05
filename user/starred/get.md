@@ -1,5 +1,7 @@
 # List repositories starred by the authenticated user
 
+`get /user/starred`
+
 Lists repositories the authenticated user has starred.
 
 This endpoint supports the following custom media types. For more information, see "[Media types](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types)."

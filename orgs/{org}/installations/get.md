@@ -1,5 +1,7 @@
 # List app installations for an organization
 
+`get /orgs/{org}/installations`
+
 Lists all GitHub Apps in an organization. The installation count includes
 all GitHub Apps installed on repositories in the organization.
 

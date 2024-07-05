@@ -1,5 +1,7 @@
 # List secrets for the authenticated user
 
+`get /user/codespaces/secrets`
+
 Lists all development environment secrets available for a user's codespaces without revealing their
 encrypted values.
 

@@ -1,5 +1,7 @@
 # Check if a pull request has been merged
 
+`get /repos/{owner}/{repo}/pulls/{pull_number}/merge`
+
 Checks if a pull request has been merged into the base branch. The HTTP status of the response indicates whether or not the pull request has been merged; the response body is empty.
 
 ## Operation Object

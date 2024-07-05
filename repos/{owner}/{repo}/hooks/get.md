@@ -1,5 +1,7 @@
 # List repository webhooks
 
+`get /repos/{owner}/{repo}/hooks`
+
 Lists webhooks for a repository. `last response` may return null if there have not been any deliveries within 30 days.
 
 ## Operation Object

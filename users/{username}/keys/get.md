@@ -1,5 +1,7 @@
 # List public keys for a user
 
+`get /users/{username}/keys`
+
 Lists the _verified_ public SSH keys for a user. This is accessible by anyone.
 
 ## Operation Object

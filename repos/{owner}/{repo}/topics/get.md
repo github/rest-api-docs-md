@@ -1,5 +1,7 @@
 # Get all repository topics
 
+`get /repos/{owner}/{repo}/topics`
+
 
 
 ## Operation Object

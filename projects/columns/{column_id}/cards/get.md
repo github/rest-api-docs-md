@@ -1,5 +1,7 @@
 # List project cards
 
+`get /projects/columns/{column_id}/cards`
+
 Lists the project cards in a project.
 
 ## Operation Object

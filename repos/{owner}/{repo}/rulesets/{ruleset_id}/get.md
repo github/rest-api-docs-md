@@ -1,5 +1,7 @@
 # Get a repository ruleset
 
+`get /repos/{owner}/{repo}/rulesets/{ruleset_id}`
+
 Get a ruleset for a repository.
 
 ## Operation Object

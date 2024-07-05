@@ -1,5 +1,7 @@
 # Get team member (Legacy)
 
+`get /teams/{team_id}/members/{username}`
+
 The "Get team member" endpoint (described below) is deprecated.
 
 We recommend using the [Get team membership for a user](https://docs.github.com/rest/teams/members#get-team-membership-for-a-user) endpoint instead. It allows you to get both active and pending memberships.

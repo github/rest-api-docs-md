@@ -1,5 +1,7 @@
 # List check runs in a check suite
 
+`get /repos/{owner}/{repo}/check-suites/{check_suite_id}/check-runs`
+
 Lists check runs for a check suite using its `id`.
 
 **Note:** The endpoints to manage checks only look for pushes in the repository where the check suite or check run were created. Pushes to a branch in a forked repository are not detected and return an empty `pull_requests` array.

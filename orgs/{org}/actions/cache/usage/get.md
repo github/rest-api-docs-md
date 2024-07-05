@@ -1,5 +1,7 @@
 # Get GitHub Actions cache usage for an organization
 
+`get /orgs/{org}/actions/cache/usage`
+
 Gets the total GitHub Actions cache usage for an organization.
 The data fetched using this API is refreshed approximately every 5 minutes, so values returned from this endpoint may take at least 5 minutes to get updated.
 

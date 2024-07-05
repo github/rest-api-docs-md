@@ -1,5 +1,7 @@
 # List repository workflows
 
+`get /repos/{owner}/{repo}/actions/workflows`
+
 Lists the workflows in a repository.
 
 Anyone with read access to the repository can use this endpoint.

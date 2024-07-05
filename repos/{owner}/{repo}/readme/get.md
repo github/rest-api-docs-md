@@ -1,5 +1,7 @@
 # Get a repository README
 
+`get /repos/{owner}/{repo}/readme`
+
 Gets the preferred README for a repository.
 
 This endpoint supports the following custom media types. For more information, see "[Media types](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types)."

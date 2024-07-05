@@ -1,5 +1,7 @@
 # Download a user migration archive
 
+`get /user/migrations/{migration_id}/archive`
+
 Fetches the URL to download the migration archive as a `tar.gz` file. Depending on the resources your repository uses, the migration archive can contain JSON files with data for these objects:
 
 *   attachments

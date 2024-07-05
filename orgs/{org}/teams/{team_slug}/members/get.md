@@ -1,5 +1,7 @@
 # List team members
 
+`get /orgs/{org}/teams/{team_slug}/members`
+
 Team members will include the members of child teams.
 
 To list members in a team, the team must be visible to the authenticated user.

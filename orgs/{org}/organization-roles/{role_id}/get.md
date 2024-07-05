@@ -1,5 +1,7 @@
 # Get an organization role
 
+`get /orgs/{org}/organization-roles/{role_id}`
+
 Gets an organization role that is available to this organization. For more information on organization roles, see "[Managing people's access to your organization with roles](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/about-custom-organization-roles)."
 
 To use this endpoint, the authenticated user must be one of:

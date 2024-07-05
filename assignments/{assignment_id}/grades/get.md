@@ -1,5 +1,7 @@
 # Get assignment grades
 
+`get /assignments/{assignment_id}/grades`
+
 Gets grades for a GitHub Classroom assignment. Grades will only be returned if the current user is an administrator of the GitHub Classroom for the assignment.
 
 ## Operation Object

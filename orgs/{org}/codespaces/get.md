@@ -1,5 +1,7 @@
 # List codespaces for the organization
 
+`get /orgs/{org}/codespaces`
+
 Lists the codespaces associated to a specified organization.
 
 OAuth app tokens and personal access tokens (classic) need the `admin:org` scope to use this endpoint.

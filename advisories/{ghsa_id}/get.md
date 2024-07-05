@@ -1,5 +1,7 @@
 # Get a global security advisory
 
+`get /advisories/{ghsa_id}`
+
 Gets a global security advisory using its GitHub Security Advisory (GHSA) identifier.
 
 ## Operation Object

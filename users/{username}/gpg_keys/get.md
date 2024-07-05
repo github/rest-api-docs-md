@@ -1,5 +1,7 @@
 # List GPG keys for a user
 
+`get /users/{username}/gpg_keys`
+
 Lists the GPG keys for a user. This information is accessible by anyone.
 
 ## Operation Object

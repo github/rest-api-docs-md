@@ -1,5 +1,7 @@
 # List locations for a secret scanning alert
 
+`get /repos/{owner}/{repo}/secret-scanning/alerts/{alert_number}/locations`
+
 Lists all locations for a given secret scanning alert for an eligible repository.
 
 The authenticated user must be an administrator for the repository or for the organization that owns the repository to use this endpoint.

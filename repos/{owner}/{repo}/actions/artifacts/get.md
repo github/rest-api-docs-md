@@ -1,5 +1,7 @@
 # List artifacts for a repository
 
+`get /repos/{owner}/{repo}/actions/artifacts`
+
 Lists all artifacts for a repository.
 
 Anyone with read access to the repository can use this endpoint.

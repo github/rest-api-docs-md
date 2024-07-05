@@ -1,5 +1,7 @@
 # Get a summary of Copilot usage for enterprise members
 
+`get /enterprises/{enterprise}/copilot/usage`
+
 **Note**: This endpoint is in beta and is subject to change.
 
 You can use this endpoint to see a daily breakdown of aggregated usage metrics for Copilot completions and Copilot Chat in the IDE

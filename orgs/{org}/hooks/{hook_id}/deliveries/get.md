@@ -1,5 +1,7 @@
 # List deliveries for an organization webhook
 
+`get /orgs/{org}/hooks/{hook_id}/deliveries`
+
 Returns a list of webhook deliveries for a webhook configured in an organization.
 
 You must be an organization owner to use this endpoint.

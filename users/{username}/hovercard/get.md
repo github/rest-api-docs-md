@@ -1,5 +1,7 @@
 # Get contextual information for a user
 
+`get /users/{username}/hovercard`
+
 Provides hovercard information. You can find out more about someone in relation to their pull requests, issues, repositories, and organizations.
 
   The `subject_type` and `subject_id` parameters provide context for the person's hovercard, which returns more information than without the parameters. For example, if you wanted to find out more about `octocat` who owns the `Spoon-Knife` repository, you would use a `subject_type` value of `repository` and a `subject_id` value of `1300192` (the ID of the `Spoon-Knife` repository).

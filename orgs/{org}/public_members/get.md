@@ -1,5 +1,7 @@
 # List public organization members
 
+`get /orgs/{org}/public_members`
+
 Members of an organization can choose to have their membership publicized or not.
 
 ## Operation Object

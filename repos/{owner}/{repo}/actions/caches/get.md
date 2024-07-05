@@ -1,5 +1,7 @@
 # List GitHub Actions caches for a repository
 
+`get /repos/{owner}/{repo}/actions/caches`
+
 Lists the GitHub Actions caches for a repository.
 
 OAuth tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.

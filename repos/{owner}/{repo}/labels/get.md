@@ -1,5 +1,7 @@
 # List labels for a repository
 
+`get /repos/{owner}/{repo}/labels`
+
 Lists all labels for a repository.
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # List jobs for a workflow run attempt
 
+`get /repos/{owner}/{repo}/actions/runs/{run_id}/attempts/{attempt_number}/jobs`
+
 Lists jobs for a specific workflow run attempt. You can use parameters to narrow the list of results. For more information
 about using parameters, see [Parameters](https://docs.github.com/rest/guides/getting-started-with-the-rest-api#parameters).
 

@@ -1,5 +1,7 @@
 # List deployment branch policies
 
+`get /repos/{owner}/{repo}/environments/{environment_name}/deployment-branch-policies`
+
 Lists the deployment branch policies for an environment.
 
 Anyone with read access to the repository can use this endpoint.

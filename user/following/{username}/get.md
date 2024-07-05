@@ -1,5 +1,7 @@
 # Check if a person is followed by the authenticated user
 
+`get /user/following/{username}`
+
 
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # Download workflow run attempt logs
 
+`get /repos/{owner}/{repo}/actions/runs/{run_id}/attempts/{attempt_number}/logs`
+
 Gets a redirect URL to download an archive of log files for a specific workflow run attempt. This link expires after
 1 minute. Look for `Location:` in the response header to find the URL for the download.
 

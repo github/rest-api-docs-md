@@ -1,5 +1,7 @@
 # List devcontainer configurations in a repository for the authenticated user
 
+`get /repos/{owner}/{repo}/codespaces/devcontainers`
+
 Lists the devcontainer.json files associated with a specified repository and the authenticated user. These files
 specify launchpoint configurations for codespaces created within the repository.
 

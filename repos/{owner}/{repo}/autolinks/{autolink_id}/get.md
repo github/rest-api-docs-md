@@ -1,5 +1,7 @@
 # Get an autolink reference of a repository
 
+`get /repos/{owner}/{repo}/autolinks/{autolink_id}`
+
 This returns a single autolink reference by ID that was configured for the given repository.
 
 Information about autolinks are only available to repository administrators.

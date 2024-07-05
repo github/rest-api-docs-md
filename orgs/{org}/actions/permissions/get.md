@@ -1,5 +1,7 @@
 # Get GitHub Actions permissions for an organization
 
+`get /orgs/{org}/actions/permissions`
+
 Gets the GitHub Actions permissions policy for repositories and allowed actions and reusable workflows in an organization.
 
 OAuth tokens and personal access tokens (classic) need the `admin:org` scope to use this endpoint.

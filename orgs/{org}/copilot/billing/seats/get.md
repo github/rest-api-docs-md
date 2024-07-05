@@ -1,5 +1,7 @@
 # List all Copilot seat assignments for an organization
 
+`get /orgs/{org}/copilot/billing/seats`
+
 **Note**: This endpoint is in beta and is subject to change.
 
 Lists all active Copilot seats for an organization with a Copilot Business or Copilot Enterprise subscription.

@@ -1,5 +1,7 @@
 # Get an environment public key
 
+`get /repos/{owner}/{repo}/environments/{environment_name}/secrets/public-key`
+
 Get the public key for an environment, which you need to encrypt environment
 secrets. You need to encrypt a secret before you can create or update secrets.
 

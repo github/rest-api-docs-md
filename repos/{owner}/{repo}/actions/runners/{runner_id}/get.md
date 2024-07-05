@@ -1,5 +1,7 @@
 # Get a self-hosted runner for a repository
 
+`get /repos/{owner}/{repo}/actions/runners/{runner_id}`
+
 Gets a specific self-hosted runner configured in a repository.
 
 Authenticated users must have admin access to the repository to use this endpoint.

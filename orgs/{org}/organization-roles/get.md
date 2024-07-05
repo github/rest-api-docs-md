@@ -1,5 +1,7 @@
 # Get all organization roles for an organization
 
+`get /orgs/{org}/organization-roles`
+
 Lists the organization roles available in this organization. For more information on organization roles, see "[Managing people's access to your organization with roles](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/about-custom-organization-roles)."
 
 To use this endpoint, the authenticated user must be one of:

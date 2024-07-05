@@ -1,5 +1,7 @@
 # Get an organization secret
 
+`get /orgs/{org}/dependabot/secrets/{secret_name}`
+
 Gets a single organization secret without revealing its encrypted value.
 
 OAuth app tokens and personal access tokens (classic) need the `admin:org` scope to use this endpoint.

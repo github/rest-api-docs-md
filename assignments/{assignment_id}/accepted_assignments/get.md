@@ -1,5 +1,7 @@
 # List accepted assignments for an assignment
 
+`get /assignments/{assignment_id}/accepted_assignments`
+
 Lists any assignment repositories that have been created by students accepting a GitHub Classroom assignment. Accepted assignments will only be returned if the current user is an administrator of the GitHub Classroom for the assignment.
 
 ## Operation Object

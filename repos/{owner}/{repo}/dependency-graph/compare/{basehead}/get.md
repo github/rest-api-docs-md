@@ -1,5 +1,7 @@
 # Get a diff of the dependencies between commits
 
+`get /repos/{owner}/{repo}/dependency-graph/compare/{basehead}`
+
 Gets the diff of the dependency changes between two commits of a repository, based on the changes to the dependency manifests made in those commits.
 
 ## Operation Object

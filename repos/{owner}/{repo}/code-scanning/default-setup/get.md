@@ -1,5 +1,7 @@
 # Get a code scanning default setup configuration
 
+`get /repos/{owner}/{repo}/code-scanning/default-setup`
+
 Gets a code scanning default setup configuration.
 
 OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint with private or public repositories, or the `public_repo` scope to use this endpoint with only public repositories.

@@ -1,5 +1,7 @@
 # Get latest Pages build
 
+`get /repos/{owner}/{repo}/pages/builds/latest`
+
 Gets information about the single most recent build of a GitHub Pages site.
 
 OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.

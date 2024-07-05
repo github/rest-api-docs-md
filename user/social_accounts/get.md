@@ -1,5 +1,7 @@
 # List social accounts for the authenticated user
 
+`get /user/social_accounts`
+
 Lists all of your social accounts.
 
 ## Operation Object

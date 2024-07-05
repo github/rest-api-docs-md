@@ -1,5 +1,7 @@
 # List team repositories
 
+`get /orgs/{org}/teams/{team_slug}/repos`
+
 Lists a team's repositories visible to the authenticated user.
 
 **Note:** You can also specify a team by `org_id` and `team_id` using the route `GET /organizations/{org_id}/team/{team_id}/repos`.

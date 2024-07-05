@@ -1,5 +1,7 @@
 # List Dependabot alerts for an organization
 
+`get /orgs/{org}/dependabot/alerts`
+
 Lists Dependabot alerts for an organization.
 
 The authenticated user must be an owner or security manager for the organization to use this endpoint.

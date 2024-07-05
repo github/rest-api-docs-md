@@ -1,5 +1,7 @@
 # Get emojis
 
+`get /emojis`
+
 Lists all the emojis available to use on GitHub.
 
 ## Operation Object

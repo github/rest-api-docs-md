@@ -1,5 +1,7 @@
 # List check suites for a Git reference
 
+`get /repos/{owner}/{repo}/commits/{ref}/check-suites`
+
 Lists check suites for a commit `ref`. The `ref` can be a SHA, branch name, or a tag name.
 
 **Note:** The endpoints to manage checks only look for pushes in the repository where the check suite or check run were created. Pushes to a branch in a forked repository are not detected and return an empty `pull_requests` array and a `null` value for `head_branch`.

@@ -1,5 +1,7 @@
 # List gists for a user
 
+`get /users/{username}/gists`
+
 Lists public gists for the specified user:
 
 ## Operation Object

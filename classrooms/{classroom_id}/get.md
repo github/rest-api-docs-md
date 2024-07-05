@@ -1,5 +1,7 @@
 # Get a classroom
 
+`get /classrooms/{classroom_id}`
+
 Gets a GitHub Classroom classroom for the current user. Classroom will only be returned if the current user is an administrator of the GitHub Classroom.
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # List secret scanning alerts for an enterprise
 
+`get /enterprises/{enterprise}/secret-scanning/alerts`
+
 Lists secret scanning alerts for eligible repositories in an enterprise, from newest to oldest.
 
 Alerts are only returned for organizations in the enterprise for which the authenticated user is an organization owner or a [security manager](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization).

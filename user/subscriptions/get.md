@@ -1,5 +1,7 @@
 # List repositories watched by the authenticated user
 
+`get /user/subscriptions`
+
 Lists repositories the authenticated user is watching.
 
 ## Operation Object

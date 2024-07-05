@@ -1,5 +1,7 @@
 # Get a user migration status
 
+`get /user/migrations/{migration_id}`
+
 Fetches a single user migration. The response includes the `state` of the migration, which can be one of the following values:
 
 *   `pending` - the migration hasn't started yet.

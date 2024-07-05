@@ -1,5 +1,7 @@
 # List subscriptions for the authenticated user (stubbed)
 
+`get /user/marketplace_purchases/stubbed`
+
 Lists the active subscriptions for the authenticated user.
 
 ## Operation Object

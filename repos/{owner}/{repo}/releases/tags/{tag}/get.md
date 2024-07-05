@@ -1,5 +1,7 @@
 # Get a release by tag name
 
+`get /repos/{owner}/{repo}/releases/tags/{tag}`
+
 Get a published release with the specified tag.
 
 ## Operation Object

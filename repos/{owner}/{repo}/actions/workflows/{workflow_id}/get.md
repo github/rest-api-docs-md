@@ -1,5 +1,7 @@
 # Get a workflow
 
+`get /repos/{owner}/{repo}/actions/workflows/{workflow_id}`
+
 Gets a specific workflow. You can replace `workflow_id` with the workflow
 file name. For example, you could use `main.yaml`.
 

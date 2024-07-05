@@ -1,5 +1,7 @@
 # List Dependabot alerts for a repository
 
+`get /repos/{owner}/{repo}/dependabot/alerts`
+
 OAuth app tokens and personal access tokens (classic) need the `security_events` scope to use this endpoint. If this endpoint is only used with public repositories, the token can use the `public_repo` scope instead.
 
 ## Operation Object

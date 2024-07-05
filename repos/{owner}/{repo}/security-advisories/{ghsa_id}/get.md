@@ -1,5 +1,7 @@
 # Get a repository security advisory
 
+`get /repos/{owner}/{repo}/security-advisories/{ghsa_id}`
+
 Get a repository security advisory using its GitHub Security Advisory (GHSA) identifier.
 
 Anyone can access any published security advisory on a public repository.

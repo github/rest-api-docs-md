@@ -1,5 +1,7 @@
 # List review comments in a repository
 
+`get /repos/{owner}/{repo}/pulls/comments`
+
 Lists review comments for all pull requests in a repository. By default,
 review comments are in ascending order by ID.
 

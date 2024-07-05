@@ -1,5 +1,7 @@
 # List pull requests files
 
+`get /repos/{owner}/{repo}/pulls/{pull_number}/files`
+
 Lists the files in a specified pull request.
 
 **Note:** Responses include a maximum of 3000 files. The paginated response

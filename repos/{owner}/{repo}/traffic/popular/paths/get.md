@@ -1,5 +1,7 @@
 # Get top referral paths
 
+`get /repos/{owner}/{repo}/traffic/popular/paths`
+
 Get the top 10 popular contents over the last 14 days.
 
 ## Operation Object

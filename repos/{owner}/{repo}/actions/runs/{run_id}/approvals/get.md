@@ -1,5 +1,7 @@
 # Get the review history for a workflow run
 
+`get /repos/{owner}/{repo}/actions/runs/{run_id}/approvals`
+
 Anyone with read access to the repository can use this endpoint.
 
 OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint with a private repository.

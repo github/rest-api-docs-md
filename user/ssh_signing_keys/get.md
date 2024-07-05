@@ -1,5 +1,7 @@
 # List SSH signing keys for the authenticated user
 
+`get /user/ssh_signing_keys`
+
 Lists the SSH signing keys for the authenticated user's GitHub account.
 
 OAuth app tokens and personal access tokens (classic) need the `read:ssh_signing_key` scope to use this endpoint.

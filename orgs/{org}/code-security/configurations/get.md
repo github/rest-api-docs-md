@@ -1,5 +1,7 @@
 # Get code security configurations for an organization
 
+`get /orgs/{org}/code-security/configurations`
+
 Lists all code security configurations available in an organization.
 
 The authenticated user must be an administrator or security manager for the organization to use this endpoint.

@@ -1,5 +1,7 @@
 # List check run annotations
 
+`get /repos/{owner}/{repo}/check-runs/{check_run_id}/annotations`
+
 Lists annotations for a check run using the annotation `id`.
 
 OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint on a private repository.

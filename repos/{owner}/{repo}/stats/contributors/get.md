@@ -1,5 +1,7 @@
 # Get all contributor commit activity
 
+`get /repos/{owner}/{repo}/stats/contributors`
+
 
 Returns the `total` number of commits authored by the contributor. In addition, the response includes a Weekly Hash (`weeks` array) with the following information:
 

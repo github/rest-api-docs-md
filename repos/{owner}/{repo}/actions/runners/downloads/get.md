@@ -1,5 +1,7 @@
 # List runner applications for a repository
 
+`get /repos/{owner}/{repo}/actions/runners/downloads`
+
 Lists binaries for the runner application that you can download and run.
 
 Authenticated users must have admin access to the repository to use this endpoint.

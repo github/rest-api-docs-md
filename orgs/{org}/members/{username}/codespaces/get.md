@@ -1,5 +1,7 @@
 # List codespaces for a user in organization
 
+`get /orgs/{org}/members/{username}/codespaces`
+
 Lists the codespaces that a member of an organization has for repositories in that organization.
 
 OAuth app tokens and personal access tokens (classic) need the `admin:org` scope to use this endpoint.

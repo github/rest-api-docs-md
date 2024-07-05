@@ -1,5 +1,7 @@
 # List public email addresses for the authenticated user
 
+`get /user/public_emails`
+
 Lists your publicly visible email address, which you can set with the
 [Set primary email visibility for the authenticated user](https://docs.github.com/rest/users/emails#set-primary-email-visibility-for-the-authenticated-user)
 endpoint.

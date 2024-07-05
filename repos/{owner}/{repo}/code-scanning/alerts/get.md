@@ -1,5 +1,7 @@
 # List code scanning alerts for a repository
 
+`get /repos/{owner}/{repo}/code-scanning/alerts`
+
 Lists code scanning alerts.
 
 The response includes a `most_recent_instance` object.

@@ -1,5 +1,7 @@
 # List repositories for a user
 
+`get /users/{username}/repos`
+
 Lists public repositories for the specified user.
 
 ## Operation Object

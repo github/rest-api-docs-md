@@ -1,5 +1,7 @@
 # Get a code of conduct
 
+`get /codes_of_conduct/{key}`
+
 Returns information about the specified GitHub code of conduct.
 
 ## Operation Object

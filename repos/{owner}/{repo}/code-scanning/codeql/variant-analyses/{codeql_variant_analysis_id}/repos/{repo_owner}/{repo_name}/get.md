@@ -1,5 +1,7 @@
 # Get the analysis status of a repository in a CodeQL variant analysis
 
+`get /repos/{owner}/{repo}/code-scanning/codeql/variant-analyses/{codeql_variant_analysis_id}/repos/{repo_owner}/{repo_name}`
+
 Gets the analysis status of a repository in a CodeQL variant analysis.
 
 OAuth app tokens and personal access tokens (classic) need the `security_events` scope to use this endpoint with private or public repositories, or the `public_repo` scope to use this endpoint with only public repositories.

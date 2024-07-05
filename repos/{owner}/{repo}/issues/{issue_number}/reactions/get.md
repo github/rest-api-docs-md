@@ -1,5 +1,7 @@
 # List reactions for an issue
 
+`get /repos/{owner}/{repo}/issues/{issue_number}/reactions`
+
 List the reactions to an [issue](https://docs.github.com/rest/issues/issues#get-an-issue).
 
 ## Operation Object

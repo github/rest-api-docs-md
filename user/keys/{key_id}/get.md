@@ -1,5 +1,7 @@
 # Get a public SSH key for the authenticated user
 
+`get /user/keys/{key_id}`
+
 View extended details for a single public SSH key.
 
 OAuth app tokens and personal access tokens (classic) need the `read:public_key` scope to use this endpoint.

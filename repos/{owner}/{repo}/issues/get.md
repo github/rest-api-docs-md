@@ -1,5 +1,7 @@
 # List repository issues
 
+`get /repos/{owner}/{repo}/issues`
+
 List issues in a repository. Only open issues will be listed.
 
 **Note**: GitHub's REST API considers every pull request an issue, but not every issue is a pull request. For this

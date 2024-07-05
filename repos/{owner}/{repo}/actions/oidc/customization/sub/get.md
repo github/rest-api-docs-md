@@ -1,5 +1,7 @@
 # Get the customization template for an OIDC subject claim for a repository
 
+`get /repos/{owner}/{repo}/actions/oidc/customization/sub`
+
 Gets the customization template for an OpenID Connect (OIDC) subject claim.
 
 OAuth tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.

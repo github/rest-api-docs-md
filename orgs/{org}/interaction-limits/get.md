@@ -1,5 +1,7 @@
 # Get interaction restrictions for an organization
 
+`get /orgs/{org}/interaction-limits`
+
 Shows which type of GitHub user can interact with this organization and when the restriction expires. If there is no restrictions, you will see an empty response.
 
 ## Operation Object

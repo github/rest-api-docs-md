@@ -1,5 +1,7 @@
 # Get feeds
 
+`get /feeds`
+
 Lists the feeds available to the authenticated user. The response provides a URL for each feed. You can then get a specific feed by sending a request to one of the feed URLs.
 
 *   **Timeline**: The GitHub global public timeline

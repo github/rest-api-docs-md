@@ -1,5 +1,7 @@
 # List repository secrets
 
+`get /repos/{owner}/{repo}/actions/secrets`
+
 Lists all secrets available in a repository without revealing their encrypted
 values.
 

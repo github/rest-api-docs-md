@@ -1,5 +1,7 @@
 # Export a software bill of materials (SBOM) for a repository.
 
+`get /repos/{owner}/{repo}/dependency-graph/sbom`
+
 Exports the software bill of materials (SBOM) for a repository in SPDX JSON format.
 
 ## Operation Object

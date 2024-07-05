@@ -1,5 +1,7 @@
 # Check if permissions defined by a devcontainer have been accepted by the authenticated user
 
+`get /repos/{owner}/{repo}/codespaces/permissions_check`
+
 Checks whether the permissions defined by a given devcontainer configuration have been accepted by the authenticated user.
 
 OAuth app tokens and personal access tokens (classic) need the `codespace` scope to use this endpoint.

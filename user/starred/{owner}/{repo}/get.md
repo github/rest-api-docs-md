@@ -1,5 +1,7 @@
 # Check if a repository is starred by the authenticated user
 
+`get /user/starred/{owner}/{repo}`
+
 Whether the authenticated user has starred the repository.
 
 ## Operation Object

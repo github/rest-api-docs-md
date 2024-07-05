@@ -1,5 +1,7 @@
 # Get a deployment
 
+`get /repos/{owner}/{repo}/deployments/{deployment_id}`
+
 
 
 ## Operation Object

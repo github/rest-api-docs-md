@@ -1,5 +1,7 @@
 # List selected repositories for an organization secret
 
+`get /orgs/{org}/dependabot/secrets/{secret_name}/repositories`
+
 Lists all repositories that have been selected when the `visibility`
 for repository access to a secret is set to `selected`.
 

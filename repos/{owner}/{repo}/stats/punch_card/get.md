@@ -1,5 +1,7 @@
 # Get the hourly commit count for each day
 
+`get /repos/{owner}/{repo}/stats/punch_card`
+
 Each array contains the day number, hour number, and number of commits:
 
 *   `0-6`: Sunday - Saturday

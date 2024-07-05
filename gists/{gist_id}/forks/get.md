@@ -1,5 +1,7 @@
 # List gist forks
 
+`get /gists/{gist_id}/forks`
+
 
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # Get a discussion comment (Legacy)
 
+`get /teams/{team_id}/discussions/{discussion_number}/comments/{comment_number}`
+
 **Deprecation Notice:** This endpoint route is deprecated and will be removed from the Teams API. We recommend migrating your existing code to use the new [Get a discussion comment](https://docs.github.com/rest/teams/discussion-comments#get-a-discussion-comment) endpoint.
 
 Get a specific comment on a team discussion.

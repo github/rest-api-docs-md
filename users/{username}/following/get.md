@@ -1,5 +1,7 @@
 # List the people a user follows
 
+`get /users/{username}/following`
+
 Lists the people who the specified user follows.
 
 ## Operation Object

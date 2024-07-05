@@ -1,5 +1,7 @@
 # Get a discussion comment
 
+`get /orgs/{org}/teams/{team_slug}/discussions/{discussion_number}/comments/{comment_number}`
+
 Get a specific comment on a team discussion.
 
 **Note:** You can also specify a team by `org_id` and `team_id` using the route `GET /organizations/{org_id}/team/{team_id}/discussions/{discussion_number}/comments/{comment_number}`.

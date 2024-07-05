@@ -1,5 +1,7 @@
 # List repositories watched by a user
 
+`get /users/{username}/subscriptions`
+
 Lists repositories a user is watching.
 
 ## Operation Object

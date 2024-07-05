@@ -1,5 +1,7 @@
 # Get a CodeQL database for a repository
 
+`get /repos/{owner}/{repo}/code-scanning/codeql/databases/{language}`
+
 Gets a CodeQL database for a language in a repository.
 
 By default this endpoint returns JSON metadata about the CodeQL database. To

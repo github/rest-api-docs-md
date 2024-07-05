@@ -1,5 +1,7 @@
 # List repository teams
 
+`get /repos/{owner}/{repo}/teams`
+
 Lists the teams that have access to the specified repository and that are also visible to the authenticated user.
 
 For a public repository, a team is listed only if that team added the public repository explicitly.

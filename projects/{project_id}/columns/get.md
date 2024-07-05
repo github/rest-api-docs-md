@@ -1,5 +1,7 @@
 # List project columns
 
+`get /projects/{project_id}/columns`
+
 Lists the project columns in a project.
 
 ## Operation Object

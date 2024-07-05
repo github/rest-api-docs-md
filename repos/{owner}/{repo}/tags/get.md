@@ -1,5 +1,7 @@
 # List repository tags
 
+`get /repos/{owner}/{repo}/tags`
+
 
 
 ## Operation Object

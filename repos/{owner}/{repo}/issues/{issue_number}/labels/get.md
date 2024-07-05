@@ -1,5 +1,7 @@
 # List labels for an issue
 
+`get /repos/{owner}/{repo}/issues/{issue_number}/labels`
+
 Lists all labels for an issue.
 
 ## Operation Object

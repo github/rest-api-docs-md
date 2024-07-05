@@ -1,5 +1,7 @@
 # Get a commit object
 
+`get /repos/{owner}/{repo}/git/commits/{commit_sha}`
+
 Gets a Git [commit object](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects).
 
 To get the contents of a commit, see "[Get a commit](/rest/commits/commits#get-a-commit)."

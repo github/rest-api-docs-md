@@ -1,5 +1,7 @@
 # List followers of the authenticated user
 
+`get /user/followers`
+
 Lists the people following the authenticated user.
 
 ## Operation Object

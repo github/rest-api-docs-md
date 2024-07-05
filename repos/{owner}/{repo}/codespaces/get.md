@@ -1,5 +1,7 @@
 # List codespaces in a repository for the authenticated user
 
+`get /repos/{owner}/{repo}/codespaces`
+
 Lists the codespaces associated to a specified repository and the authenticated user.
 
 OAuth app tokens and personal access tokens (classic) need the `codespace` scope to use this endpoint.

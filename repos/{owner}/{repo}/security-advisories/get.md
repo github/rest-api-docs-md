@@ -1,5 +1,7 @@
 # List repository security advisories
 
+`get /repos/{owner}/{repo}/security-advisories`
+
 Lists security advisories in a repository.
 
 The authenticated user can access unpublished security advisories from a repository if they are a security manager or administrator of that repository, or if they are a collaborator on any security advisory.

@@ -1,5 +1,7 @@
 # List GitHub Pages builds
 
+`get /repos/{owner}/{repo}/pages/builds`
+
 Lists builts of a GitHub Pages site.
 
 OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.

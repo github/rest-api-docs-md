@@ -1,5 +1,7 @@
 # Get a webhook delivery for an organization webhook
 
+`get /orgs/{org}/hooks/{hook_id}/deliveries/{delivery_id}`
+
 Returns a delivery for a webhook configured in an organization.
 
 You must be an organization owner to use this endpoint.

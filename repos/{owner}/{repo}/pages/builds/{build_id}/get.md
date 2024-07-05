@@ -1,5 +1,7 @@
 # Get GitHub Pages build
 
+`get /repos/{owner}/{repo}/pages/builds/{build_id}`
+
 Gets information about a GitHub Pages build.
 
 OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.

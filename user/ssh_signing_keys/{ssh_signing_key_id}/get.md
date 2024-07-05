@@ -1,5 +1,7 @@
 # Get an SSH signing key for the authenticated user
 
+`get /user/ssh_signing_keys/{ssh_signing_key_id}`
+
 Gets extended details for an SSH signing key.
 
 OAuth app tokens and personal access tokens (classic) need the `read:ssh_signing_key` scope to use this endpoint.

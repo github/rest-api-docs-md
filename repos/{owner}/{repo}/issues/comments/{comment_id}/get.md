@@ -1,5 +1,7 @@
 # Get an issue comment
 
+`get /repos/{owner}/{repo}/issues/comments/{comment_id}`
+
 You can use the REST API to get comments on issues and pull requests. Every pull request is an issue, but not every issue is a pull request.
 
 This endpoint supports the following custom media types. For more information, see "[Media types](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types)."

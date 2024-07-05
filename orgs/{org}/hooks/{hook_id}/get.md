@@ -1,5 +1,7 @@
 # Get an organization webhook
 
+`get /orgs/{org}/hooks/{hook_id}`
+
 Returns a webhook configured in an organization. To get only the webhook
 `config` properties, see "[Get a webhook configuration for an organization](/rest/orgs/webhooks#get-a-webhook-configuration-for-an-organization).
 

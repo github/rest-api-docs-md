@@ -1,5 +1,7 @@
 # List outside collaborators for an organization
 
+`get /orgs/{org}/outside_collaborators`
+
 List all users who are outside collaborators of an organization.
 
 ## Operation Object

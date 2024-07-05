@@ -1,5 +1,7 @@
 # List selected repositories for an organization variable
 
+`get /orgs/{org}/actions/variables/{name}/repositories`
+
 Lists all repositories that can access an organization variable
 that is available to selected repositories.
 

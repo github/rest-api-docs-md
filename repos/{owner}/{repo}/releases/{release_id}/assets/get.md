@@ -1,5 +1,7 @@
 # List release assets
 
+`get /repos/{owner}/{repo}/releases/{release_id}/assets`
+
 
 
 ## Operation Object

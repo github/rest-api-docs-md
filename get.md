@@ -1,5 +1,7 @@
 # GitHub API Root
 
+`get /`
+
 Get Hypermedia links to resources accessible in GitHub's REST API
 
 ## Operation Object

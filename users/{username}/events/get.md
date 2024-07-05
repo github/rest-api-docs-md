@@ -1,5 +1,7 @@
 # List events for the authenticated user
 
+`get /users/{username}/events`
+
 If you are authenticated as the given user, you will see your private events. Otherwise, you'll only see public events.
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # List repository secrets
 
+`get /repos/{owner}/{repo}/codespaces/secrets`
+
 Lists all development environment secrets available in a repository without revealing their encrypted
 values.
 

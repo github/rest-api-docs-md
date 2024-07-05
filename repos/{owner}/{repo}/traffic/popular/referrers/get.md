@@ -1,5 +1,7 @@
 # Get top referral sources
 
+`get /repos/{owner}/{repo}/traffic/popular/referrers`
+
 Get the top 10 referrers over the last 14 days.
 
 ## Operation Object

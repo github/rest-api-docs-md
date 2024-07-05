@@ -1,5 +1,7 @@
 # List timeline events for an issue
 
+`get /repos/{owner}/{repo}/issues/{issue_number}/timeline`
+
 List all timeline events for an issue.
 
 ## Operation Object

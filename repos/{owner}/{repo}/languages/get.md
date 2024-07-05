@@ -1,5 +1,7 @@
 # List repository languages
 
+`get /repos/{owner}/{repo}/languages`
+
 Lists languages for the specified repository. The value shown for each language is the number of bytes of code written in that language.
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # List teams for the authenticated user
 
+`get /user/teams`
+
 List all of the teams across all of the organizations to which the authenticated
 user belongs.
 

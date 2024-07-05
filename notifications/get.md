@@ -1,5 +1,7 @@
 # List notifications for the authenticated user
 
+`get /notifications`
+
 List all notifications for the current user, sorted by most recently updated.
 
 ## Operation Object

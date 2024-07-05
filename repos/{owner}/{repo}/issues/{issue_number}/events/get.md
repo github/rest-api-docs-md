@@ -1,5 +1,7 @@
 # List issue events
 
+`get /repos/{owner}/{repo}/issues/{issue_number}/events`
+
 Lists all events for an issue.
 
 ## Operation Object

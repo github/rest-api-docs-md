@@ -1,5 +1,7 @@
 # List discussions (Legacy)
 
+`get /teams/{team_id}/discussions`
+
 **Deprecation Notice:** This endpoint route is deprecated and will be removed from the Teams API. We recommend migrating your existing code to use the new [`List discussions`](https://docs.github.com/rest/teams/discussions#list-discussions) endpoint.
 
 List all discussions on a team's page.

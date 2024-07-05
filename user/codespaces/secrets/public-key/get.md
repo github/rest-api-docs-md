@@ -1,5 +1,7 @@
 # Get public key for the authenticated user
 
+`get /user/codespaces/secrets/public-key`
+
 Gets your public key, which you need to encrypt secrets. You need to encrypt a secret before you can create or update secrets.
 
 The authenticated user must have Codespaces access to use this endpoint.

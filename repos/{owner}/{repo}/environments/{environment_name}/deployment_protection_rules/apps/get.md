@@ -1,5 +1,7 @@
 # List custom deployment rule integrations available for an environment
 
+`get /repos/{owner}/{repo}/environments/{environment_name}/deployment_protection_rules/apps`
+
 Gets all custom deployment protection rule integrations that are available for an environment. Anyone with read access to the repository can use this endpoint.
 
 For more information about environments, see "[Using environments for deployment](https://docs.github.com/actions/deployment/targeting-different-environments/using-environments-for-deployment)."

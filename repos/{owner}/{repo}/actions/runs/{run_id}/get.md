@@ -1,5 +1,7 @@
 # Get a workflow run
 
+`get /repos/{owner}/{repo}/actions/runs/{run_id}`
+
 Gets a specific workflow run.
 
 Anyone with read access to the repository can use this endpoint.

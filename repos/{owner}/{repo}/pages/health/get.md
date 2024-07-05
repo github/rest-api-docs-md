@@ -1,5 +1,7 @@
 # Get a DNS health check for GitHub Pages
 
+`get /repos/{owner}/{repo}/pages/health`
+
 Gets a health check of the DNS settings for the `CNAME` record configured for a repository's GitHub Pages.
 
 The first request to this endpoint returns a `202 Accepted` status and starts an asynchronous background task to get the results for the domain. After the background task completes, subsequent requests to this endpoint return a `200 OK` status with the health check results in the response.

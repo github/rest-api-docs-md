@@ -1,5 +1,7 @@
 # Get Copilot seat assignment details for a user
 
+`get /orgs/{org}/members/{username}/copilot`
+
 **Note**: This endpoint is in beta and is subject to change.
 
 Gets the GitHub Copilot seat assignment details for a member of an organization who currently has access to GitHub Copilot.

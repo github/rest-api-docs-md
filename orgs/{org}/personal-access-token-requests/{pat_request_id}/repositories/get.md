@@ -1,5 +1,7 @@
 # List repositories requested to be accessed by a fine-grained personal access token
 
+`get /orgs/{org}/personal-access-token-requests/{pat_request_id}/repositories`
+
 Lists the repositories a fine-grained personal access token request is requesting access to.
 
 Only GitHub Apps can use this endpoint.

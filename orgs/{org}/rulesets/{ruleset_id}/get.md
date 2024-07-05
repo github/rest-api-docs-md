@@ -1,5 +1,7 @@
 # Get an organization repository ruleset
 
+`get /orgs/{org}/rulesets/{ruleset_id}`
+
 Get a repository ruleset for an organization.
 
 ## Operation Object

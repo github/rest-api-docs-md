@@ -1,5 +1,7 @@
 # List repository rule suites
 
+`get /repos/{owner}/{repo}/rulesets/rule-suites`
+
 Lists suites of rule evaluations at the repository level.
 For more information, see "[Managing rulesets for a repository](https://docs.github.com/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/managing-rulesets-for-a-repository#viewing-insights-for-rulesets)."
 

@@ -1,5 +1,7 @@
 # List organization webhooks
 
+`get /orgs/{org}/hooks`
+
 You must be an organization owner to use this endpoint.
 
 OAuth app tokens and personal access tokens (classic) need `admin:org_hook` scope. OAuth apps cannot list, view, or edit

@@ -1,5 +1,7 @@
 # List deployment statuses
 
+`get /repos/{owner}/{repo}/deployments/{deployment_id}/statuses`
+
 Users with pull access can view deployment statuses for a deployment:
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # List events received by the authenticated user
 
+`get /users/{username}/received_events`
+
 These are events that you've received by watching repositories and following users. If you are authenticated as the given user, you will see private events. Otherwise, you'll only see public events.
 
 ## Operation Object

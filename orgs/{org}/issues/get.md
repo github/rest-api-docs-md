@@ -1,5 +1,7 @@
 # List organization issues assigned to the authenticated user
 
+`get /orgs/{org}/issues`
+
 List issues in an organization assigned to the authenticated user.
 
 **Note**: GitHub's REST API considers every pull request an issue, but not every issue is a pull request. For this

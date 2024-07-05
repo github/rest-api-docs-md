@@ -1,5 +1,7 @@
 # List packages for the authenticated user's namespace
 
+`get /user/packages`
+
 Lists packages owned by the authenticated user within the user's namespace.
 
 OAuth app tokens and personal access tokens (classic) need the `read:packages` scope to use this endpoint. If the `package_type` belongs to a GitHub Packages registry that only supports repository-scoped permissions, the `repo` scope is also required. For the list of these registries, see "[About permissions for GitHub Packages](https://docs.github.com/packages/learn-github-packages/about-permissions-for-github-packages#permissions-for-repository-scoped-packages)."

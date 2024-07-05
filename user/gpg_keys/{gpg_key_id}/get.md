@@ -1,5 +1,7 @@
 # Get a GPG key for the authenticated user
 
+`get /user/gpg_keys/{gpg_key_id}`
+
 View extended details for a single GPG key.
 
 OAuth app tokens and personal access tokens (classic) need the `read:gpg_key` scope to use this endpoint.

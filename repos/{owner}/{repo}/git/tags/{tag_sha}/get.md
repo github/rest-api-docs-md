@@ -1,5 +1,7 @@
 # Get a tag
 
+`get /repos/{owner}/{repo}/git/tags/{tag_sha}`
+
 **Signature verification object**
 
 The response will include a `verification` object that describes the result of verifying the commit's signature. The following fields are included in the `verification` object:

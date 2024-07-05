@@ -1,5 +1,7 @@
 # Get the customization template for an OIDC subject claim for an organization
 
+`get /orgs/{org}/actions/oidc/customization/sub`
+
 Gets the customization template for an OpenID Connect (OIDC) subject claim.
 
 OAuth app tokens and personal access tokens (classic) need the `read:org` scope to use this endpoint.

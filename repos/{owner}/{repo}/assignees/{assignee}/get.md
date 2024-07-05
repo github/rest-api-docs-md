@@ -1,5 +1,7 @@
 # Check if a user can be assigned
 
+`get /repos/{owner}/{repo}/assignees/{assignee}`
+
 Checks if a user has permission to be assigned to an issue in this repository.
 
 If the `assignee` can be assigned to issues in the repository, a `204` header with no content is returned.

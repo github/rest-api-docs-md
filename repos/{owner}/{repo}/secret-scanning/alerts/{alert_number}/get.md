@@ -1,5 +1,7 @@
 # Get a secret scanning alert
 
+`get /repos/{owner}/{repo}/secret-scanning/alerts/{alert_number}`
+
 Gets a single secret scanning alert detected in an eligible repository.
 
 The authenticated user must be an administrator for the repository or for the organization that owns the repository to use this endpoint.

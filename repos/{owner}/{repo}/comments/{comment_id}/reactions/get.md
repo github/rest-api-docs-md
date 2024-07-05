@@ -1,5 +1,7 @@
 # List reactions for a commit comment
 
+`get /repos/{owner}/{repo}/comments/{comment_id}/reactions`
+
 List the reactions to a [commit comment](https://docs.github.com/rest/commits/comments#get-a-commit-comment).
 
 ## Operation Object

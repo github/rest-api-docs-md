@@ -1,5 +1,7 @@
 # List deliveries for a repository webhook
 
+`get /repos/{owner}/{repo}/hooks/{hook_id}/deliveries`
+
 Returns a list of webhook deliveries for a webhook configured in a repository.
 
 ## Operation Object

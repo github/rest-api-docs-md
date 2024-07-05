@@ -1,5 +1,7 @@
 # Get large files
 
+`get /repos/{owner}/{repo}/import/large_files`
+
 List files larger than 100MB found during the import
 
 **Warning:** Due to very low levels of usage and available alternatives, this endpoint is deprecated and will no longer be available from 00:00 UTC on April 12, 2024. For more details and alternatives, see the [changelog](https://gh.io/source-imports-api-deprecation).

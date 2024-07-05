@@ -1,5 +1,7 @@
 # Get a project column
 
+`get /projects/columns/{column_id}`
+
 Gets information about a project column.
 
 ## Operation Object

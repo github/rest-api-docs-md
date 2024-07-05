@@ -1,5 +1,7 @@
 # Get a workflow run attempt
 
+`get /repos/{owner}/{repo}/actions/runs/{run_id}/attempts/{attempt_number}`
+
 Gets a specific workflow run attempt.
 
 Anyone with read access to the repository can use this endpoint.

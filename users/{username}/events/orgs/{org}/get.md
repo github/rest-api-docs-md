@@ -1,5 +1,7 @@
 # List organization events for the authenticated user
 
+`get /users/{username}/events/orgs/{org}`
+
 This is the user's organization dashboard. You must be authenticated as the user to view this.
 
 ## Operation Object

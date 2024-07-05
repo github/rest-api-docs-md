@@ -1,5 +1,7 @@
 # Get a label
 
+`get /repos/{owner}/{repo}/labels/{name}`
+
 Gets a label using the given name.
 
 ## Operation Object

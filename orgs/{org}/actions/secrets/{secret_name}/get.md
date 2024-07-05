@@ -1,5 +1,7 @@
 # Get an organization secret
 
+`get /orgs/{org}/actions/secrets/{secret_name}`
+
 Gets a single organization secret without revealing its encrypted value.
 
 The authenticated user must have collaborator access to a repository to create, update, or read secrets

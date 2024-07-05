@@ -1,5 +1,7 @@
 # Download job logs for a workflow run
 
+`get /repos/{owner}/{repo}/actions/jobs/{job_id}/logs`
+
 Gets a redirect URL to download a plain text file of logs for a workflow job. This link expires after 1 minute. Look
 for `Location:` in the response header to find the URL for the download.
 

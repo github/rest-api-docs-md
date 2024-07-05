@@ -1,5 +1,7 @@
 # Get a self-hosted runner for an organization
 
+`get /orgs/{org}/actions/runners/{runner_id}`
+
 Gets a specific self-hosted runner configured in an organization.
 
 Authenticated users must have admin access to the organization to use this endpoint.

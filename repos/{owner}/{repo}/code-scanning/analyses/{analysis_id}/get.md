@@ -1,5 +1,7 @@
 # Get a code scanning analysis for a repository
 
+`get /repos/{owner}/{repo}/code-scanning/analyses/{analysis_id}`
+
 Gets a specified code scanning analysis for a repository.
 
 The default JSON response contains fields that describe the analysis.

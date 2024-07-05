@@ -1,5 +1,7 @@
 # Get a GitHub Pages site
 
+`get /repos/{owner}/{repo}/pages`
+
 Gets information about a GitHub Pages site.
 
 OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.

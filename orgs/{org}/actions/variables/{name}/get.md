@@ -1,5 +1,7 @@
 # Get an organization variable
 
+`get /orgs/{org}/actions/variables/{name}`
+
 Gets a specific variable in an organization.
 
 The authenticated user must have collaborator access to a repository to create, update, or read variables.

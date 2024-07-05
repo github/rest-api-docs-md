@@ -1,5 +1,7 @@
 # Get a secret for the authenticated user
 
+`get /user/codespaces/secrets/{secret_name}`
+
 Gets a development environment secret available to a user's codespaces without revealing its encrypted value.
 
 The authenticated user must have Codespaces access to use this endpoint.

@@ -1,5 +1,7 @@
 # Get a repository webhook
 
+`get /repos/{owner}/{repo}/hooks/{hook_id}`
+
 Returns a webhook configured in a repository. To get only the webhook `config` properties, see "[Get a webhook configuration for a repository](/rest/webhooks/repo-config#get-a-webhook-configuration-for-a-repository)."
 
 ## Operation Object

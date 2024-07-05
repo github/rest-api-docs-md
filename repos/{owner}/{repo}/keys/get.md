@@ -1,5 +1,7 @@
 # List deploy keys
 
+`get /repos/{owner}/{repo}/keys`
+
 
 
 ## Operation Object

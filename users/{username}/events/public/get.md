@@ -1,5 +1,7 @@
 # List public events for a user
 
+`get /users/{username}/events/public`
+
 
 
 ## Operation Object

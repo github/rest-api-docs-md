@@ -1,5 +1,7 @@
 # List public events for a network of repositories
 
+`get /networks/{owner}/{repo}/events`
+
 
 
 ## Operation Object

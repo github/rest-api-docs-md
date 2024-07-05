@@ -1,5 +1,7 @@
 # List repository variables
 
+`get /repos/{owner}/{repo}/actions/variables`
+
 Lists all repository variables.
 
 Authenticated users must have collaborator access to a repository to create, update, or read variables.

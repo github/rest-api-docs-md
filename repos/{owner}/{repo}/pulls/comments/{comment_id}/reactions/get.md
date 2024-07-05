@@ -1,5 +1,7 @@
 # List reactions for a pull request review comment
 
+`get /repos/{owner}/{repo}/pulls/comments/{comment_id}/reactions`
+
 List the reactions to a [pull request review comment](https://docs.github.com/rest/pulls/comments#get-a-review-comment-for-a-pull-request).
 
 ## Operation Object

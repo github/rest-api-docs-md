@@ -1,5 +1,7 @@
 # Get an environment secret
 
+`get /repos/{owner}/{repo}/environments/{environment_name}/secrets/{secret_name}`
+
 Gets a single environment secret without revealing its encrypted value.
 
 Authenticated users must have collaborator access to a repository to create, update, or read secrets.

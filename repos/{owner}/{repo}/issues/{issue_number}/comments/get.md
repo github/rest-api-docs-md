@@ -1,5 +1,7 @@
 # List issue comments
 
+`get /repos/{owner}/{repo}/issues/{issue_number}/comments`
+
 You can use the REST API to list comments on issues and pull requests. Every pull request is an issue, but not every issue is a pull request.
 
 Issue comments are ordered by ascending ID.

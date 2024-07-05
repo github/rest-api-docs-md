@@ -1,5 +1,7 @@
 # Get the status of a GitHub Pages deployment
 
+`get /repos/{owner}/{repo}/pages/deployments/{pages_deployment_id}`
+
 Gets the current status of a GitHub Pages deployment.
 
 The authenticated user must have read permission for the GitHub Pages site.

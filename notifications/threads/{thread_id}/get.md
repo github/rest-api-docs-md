@@ -1,5 +1,7 @@
 # Get a thread
 
+`get /notifications/threads/{thread_id}`
+
 Gets information about a notification thread.
 
 ## Operation Object

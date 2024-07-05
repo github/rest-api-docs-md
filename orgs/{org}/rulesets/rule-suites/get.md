@@ -1,5 +1,7 @@
 # List organization rule suites
 
+`get /orgs/{org}/rulesets/rule-suites`
+
 Lists suites of rule evaluations at the organization level.
 For more information, see "[Managing rulesets for repositories in your organization](https://docs.github.com/organizations/managing-organization-settings/managing-rulesets-for-repositories-in-your-organization#viewing-insights-for-rulesets)."
 

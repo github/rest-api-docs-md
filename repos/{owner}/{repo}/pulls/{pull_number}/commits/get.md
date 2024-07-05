@@ -1,5 +1,7 @@
 # List commits on a pull request
 
+`get /repos/{owner}/{repo}/pulls/{pull_number}/commits`
+
 Lists a maximum of 250 commits for a pull request. To receive a complete
 commit list for pull requests with more than 250 commits, use the [List commits](https://docs.github.com/rest/commits/commits#list-commits)
 endpoint.

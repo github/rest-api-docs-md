@@ -1,5 +1,7 @@
 # List organization secrets
 
+`get /orgs/{org}/dependabot/secrets`
+
 Lists all secrets available in an organization without revealing their
 encrypted values.
 

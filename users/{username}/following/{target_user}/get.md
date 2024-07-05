@@ -1,5 +1,7 @@
 # Check if a user follows another user
 
+`get /users/{username}/following/{target_user}`
+
 
 
 ## Operation Object

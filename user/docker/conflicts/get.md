@@ -1,5 +1,7 @@
 # Get list of conflicting packages during Docker migration for authenticated-user
 
+`get /user/docker/conflicts`
+
 Lists all packages that are owned by the authenticated user within the user's namespace, and that encountered a conflict during a Docker migration.
 
 OAuth app tokens and personal access tokens (classic) need the `read:packages` scope to use this endpoint.

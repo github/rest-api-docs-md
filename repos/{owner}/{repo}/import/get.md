@@ -1,5 +1,7 @@
 # Get an import status
 
+`get /repos/{owner}/{repo}/import`
+
 View the progress of an import.
 
 **Warning:** Due to very low levels of usage and available alternatives, this endpoint is deprecated and will no longer be available from 00:00 UTC on April 12, 2024. For more details and alternatives, see the [changelog](https://gh.io/source-imports-api-deprecation).

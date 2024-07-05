@@ -1,5 +1,7 @@
 # List organization variables
 
+`get /orgs/{org}/actions/variables`
+
 Lists all organization variables.
 
 Authenticated users must have collaborator access to a repository to create, update, or read variables.

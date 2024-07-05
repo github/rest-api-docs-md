@@ -1,5 +1,7 @@
 # List machine types for a codespace
 
+`get /user/codespaces/{codespace_name}/machines`
+
 List the machine types a codespace can transition to use.
 
 OAuth app tokens and personal access tokens (classic) need the `codespace` scope to use this endpoint.

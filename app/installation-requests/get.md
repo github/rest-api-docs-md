@@ -1,5 +1,7 @@
 # List installation requests for the authenticated app
 
+`get /app/installation-requests`
+
 Lists all the pending installation requests for the authenticated GitHub App.
 
 ## Operation Object

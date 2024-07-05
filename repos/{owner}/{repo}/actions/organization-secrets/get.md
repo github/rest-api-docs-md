@@ -1,5 +1,7 @@
 # List repository organization secrets
 
+`get /repos/{owner}/{repo}/actions/organization-secrets`
+
 Lists all organization secrets shared with a repository without revealing their encrypted
 values.
 

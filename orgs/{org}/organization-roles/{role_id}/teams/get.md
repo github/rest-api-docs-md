@@ -1,5 +1,7 @@
 # List teams that are assigned to an organization role
 
+`get /orgs/{org}/organization-roles/{role_id}/teams`
+
 Lists the teams that are assigned to an organization role. For more information on organization roles, see "[Managing people's access to your organization with roles](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/about-custom-organization-roles)."
 
 To use this endpoint, you must be an administrator for the organization.

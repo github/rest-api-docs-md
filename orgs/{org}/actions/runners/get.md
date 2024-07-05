@@ -1,5 +1,7 @@
 # List self-hosted runners for an organization
 
+`get /orgs/{org}/actions/runners`
+
 Lists all self-hosted runners configured in an organization.
 
 Authenticated users must have admin access to the organization to use this endpoint.

@@ -1,5 +1,7 @@
 # List CODEOWNERS errors
 
+`get /repos/{owner}/{repo}/codeowners/errors`
+
 List any syntax errors that are detected in the CODEOWNERS
 file.
 

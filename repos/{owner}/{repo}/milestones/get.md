@@ -1,5 +1,7 @@
 # List milestones
 
+`get /repos/{owner}/{repo}/milestones`
+
 Lists milestones for a repository.
 
 ## Operation Object

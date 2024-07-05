@@ -1,5 +1,7 @@
 # List repository notifications for the authenticated user
 
+`get /repos/{owner}/{repo}/notifications`
+
 Lists all notifications for the current user in the specified repository.
 
 ## Operation Object

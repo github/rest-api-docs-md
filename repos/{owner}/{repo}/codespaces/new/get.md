@@ -1,5 +1,7 @@
 # Get default attributes for a codespace
 
+`get /repos/{owner}/{repo}/codespaces/new`
+
 Gets the default attributes for codespaces created by the user with the repository.
 
 OAuth app tokens and personal access tokens (classic) need the `codespace` scope to use this endpoint.

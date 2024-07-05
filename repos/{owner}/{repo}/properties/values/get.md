@@ -1,5 +1,7 @@
 # Get all custom property values for a repository
 
+`get /repos/{owner}/{repo}/properties/values`
+
 Gets all custom property values that are set for a repository.
 Users with read access to the repository can use this endpoint.
 

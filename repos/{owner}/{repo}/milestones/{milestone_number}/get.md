@@ -1,5 +1,7 @@
 # Get a milestone
 
+`get /repos/{owner}/{repo}/milestones/{milestone_number}`
+
 Gets a milestone using the given milestone number.
 
 ## Operation Object

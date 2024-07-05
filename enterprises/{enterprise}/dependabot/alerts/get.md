@@ -1,5 +1,7 @@
 # List Dependabot alerts for an enterprise
 
+`get /enterprises/{enterprise}/dependabot/alerts`
+
 Lists Dependabot alerts for repositories that are owned by the specified enterprise.
 
 The authenticated user must be a member of the enterprise to use this endpoint.

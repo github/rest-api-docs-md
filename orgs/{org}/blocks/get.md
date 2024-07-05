@@ -1,5 +1,7 @@
 # List users blocked by an organization
 
+`get /orgs/{org}/blocks`
+
 List the users blocked by an organization.
 
 ## Operation Object

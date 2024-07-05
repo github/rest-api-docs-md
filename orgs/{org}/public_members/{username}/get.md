@@ -1,5 +1,7 @@
 # Check public organization membership for a user
 
+`get /orgs/{org}/public_members/{username}`
+
 Check if the provided user is a public member of the organization.
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # Get a repository subscription
 
+`get /repos/{owner}/{repo}/subscription`
+
 Gets information about whether the authenticated user is subscribed to the repository.
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # List comments for a pull request review
 
+`get /repos/{owner}/{repo}/pulls/{pull_number}/reviews/{review_id}/comments`
+
 Lists comments for a specific pull request review.
 
 This endpoint supports the following custom media types. For more information, see "[Media types](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types)."

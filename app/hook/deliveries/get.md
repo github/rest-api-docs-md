@@ -1,5 +1,7 @@
 # List deliveries for an app webhook
 
+`get /app/hook/deliveries`
+
 Returns a list of webhook deliveries for the webhook configured for a GitHub App.
 
 You must use a [JWT](https://docs.github.com/apps/building-github-apps/authenticating-with-github-apps/#authenticating-as-a-github-app) to access this endpoint.

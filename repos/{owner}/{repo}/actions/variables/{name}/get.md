@@ -1,5 +1,7 @@
 # Get a repository variable
 
+`get /repos/{owner}/{repo}/actions/variables/{name}`
+
 Gets a specific variable in a repository.
 
 The authenticated user must have collaborator access to the repository to use this endpoint.

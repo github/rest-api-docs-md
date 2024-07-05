@@ -1,5 +1,7 @@
 # List starred gists
 
+`get /gists/starred`
+
 List the authenticated user's starred gists:
 
 ## Operation Object

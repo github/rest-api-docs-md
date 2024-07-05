@@ -1,5 +1,7 @@
 # List branches
 
+`get /repos/{owner}/{repo}/branches`
+
 
 
 ## Operation Object

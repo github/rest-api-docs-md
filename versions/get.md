@@ -1,5 +1,7 @@
 # Get all API versions
 
+`get /versions`
+
 Get all supported GitHub API versions.
 
 ## Operation Object

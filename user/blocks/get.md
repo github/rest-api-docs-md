@@ -1,5 +1,7 @@
 # List users blocked by the authenticated user
 
+`get /user/blocks`
+
 List the users you've blocked on your personal account.
 
 ## Operation Object

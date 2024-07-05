@@ -1,5 +1,7 @@
 # Get a webhook configuration for an organization
 
+`get /orgs/{org}/hooks/{hook_id}/config`
+
 Returns the webhook configuration for an organization. To get more information about the webhook, including the `active` state and `events`, use "[Get an organization webhook ](/rest/orgs/webhooks#get-an-organization-webhook)."
 
 You must be an organization owner to use this endpoint.

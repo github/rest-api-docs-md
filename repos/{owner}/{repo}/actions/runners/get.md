@@ -1,5 +1,7 @@
 # List self-hosted runners for a repository
 
+`get /repos/{owner}/{repo}/actions/runners`
+
 Lists all self-hosted runners configured in a repository.
 
 Authenticated users must have admin access to the repository to use this endpoint.

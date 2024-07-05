@@ -1,5 +1,7 @@
 # Get rate limit status for the authenticated user
 
+`get /rate_limit`
+
 **Note:** Accessing this endpoint does not count against your REST API rate limit.
 
 Some categories of endpoints have custom rate limits that are separate from the rate limit governing the other REST API endpoints. For this reason, the API response categorizes your rate limit. Under `resources`, you'll see objects relating to different categories:

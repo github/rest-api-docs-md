@@ -1,5 +1,7 @@
 # Get a release
 
+`get /repos/{owner}/{repo}/releases/{release_id}`
+
 Gets a public release with the specified release ID.
 
 **Note:** This returns an `upload_url` key corresponding to the endpoint

@@ -1,5 +1,7 @@
 # List social accounts for a user
 
+`get /users/{username}/social_accounts`
+
 Lists social media accounts for a user. This endpoint is accessible by anyone.
 
 ## Operation Object

@@ -1,5 +1,7 @@
 # Get GitHub Packages billing for a user
 
+`get /users/{username}/settings/billing/packages`
+
 Gets the free and paid storage used for GitHub Packages in gigabytes.
 
 Paid minutes only apply to packages stored for private repositories. For more information, see "[Managing billing for GitHub Packages](https://docs.github.com/github/setting-up-and-managing-billing-and-payments-on-github/managing-billing-for-github-packages)."

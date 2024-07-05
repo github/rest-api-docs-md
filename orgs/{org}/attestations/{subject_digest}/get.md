@@ -1,5 +1,7 @@
 # List attestations
 
+`get /orgs/{org}/attestations/{subject_digest}`
+
 List a collection of artifact attestations with a given subject digest that are associated with repositories owned by an organization.
 
 The collection of attestations returned by this endpoint is filtered according to the authenticated user's permissions; if the authenticated user cannot read a repository, the attestations associated with that repository will not be included in the response. In addition, when using a fine-grained access token the `attestations:read` permission is required.

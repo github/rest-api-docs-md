@@ -1,5 +1,7 @@
 # List environments
 
+`get /repos/{owner}/{repo}/environments`
+
 Lists the environments for a repository.
 
 Anyone with read access to the repository can use this endpoint.
