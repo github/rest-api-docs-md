@@ -1,137 +1,15 @@
 # Get admin branch protection
 
-`get /repos/{owner}/{repo}/branches/{branch}/protection/enforce_admins`
+`GET /repos/{owner}/{repo}/branches/{branch}/protection/enforce_admins`
 
 Protected branches are available in public repositories with GitHub Free and GitHub Free for organizations, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server. For more information, see [GitHub's products](https://docs.github.com/github/getting-started-with-github/githubs-products) in the GitHub Help documentation.
 
-## Operation Object
+[API method documentation](https://docs.github.com/rest/branches/branch-protection#get-admin-branch-protection)
 
-```json
-{
-    "summary": "Get admin branch protection",
-    "description": "Protected branches are available in public repositories with GitHub Free and GitHub Free for organizations, and in public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server. For more information, see [GitHub's products](https://docs.github.com/github/getting-started-with-github/githubs-products) in the GitHub Help documentation.",
-    "tags": [
-        "repos"
-    ],
-    "operationId": "repos/get-admin-branch-protection",
-    "externalDocs": {
-        "description": "API method documentation",
-        "url": "https://docs.github.com/rest/branches/branch-protection#get-admin-branch-protection"
-    },
-    "parameters": [
-        {
-            "$ref": "#/components/parameters/owner"
-        },
-        {
-            "$ref": "#/components/parameters/repo"
-        },
-        {
-            "$ref": "#/components/parameters/branch"
-        }
-    ],
-    "responses": {
-        "200": {
-            "description": "Response",
-            "content": {
-                "application/json": {
-                    "schema": {
-                        "$ref": "#/components/schemas/protected-branch-admin-enforced"
-                    },
-                    "examples": {
-                        "default": {
-                            "$ref": "#/components/examples/protected-branch-admin-enforced-2"
-                        }
-                    }
-                }
-            }
-        }
-    },
-    "x-github": {
-        "githubCloudOnly": false,
-        "enabledForGitHubApps": true,
-        "category": "branches",
-        "subcategory": "branch-protection"
-    }
-}
-```
+## All Parameters for "Get admin branch protection"
 
-## References
+### Path Parameters
 
-### `#/components/parameters/owner`
-
-```json
-{
-    "name": "owner",
-    "description": "The account owner of the repository. The name is not case sensitive.",
-    "in": "path",
-    "required": true,
-    "schema": {
-        "type": "string"
-    }
-}
-```
-
-### `#/components/parameters/repo`
-
-```json
-{
-    "name": "repo",
-    "description": "The name of the repository without the `.git` extension. The name is not case sensitive.",
-    "in": "path",
-    "required": true,
-    "schema": {
-        "type": "string"
-    }
-}
-```
-
-### `#/components/parameters/branch`
-
-```json
-{
-    "name": "branch",
-    "description": "The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).",
-    "in": "path",
-    "required": true,
-    "schema": {
-        "type": "string"
-    },
-    "x-multi-segment": true
-}
-```
-
-### `#/components/schemas/protected-branch-admin-enforced`
-
-```json
-{
-    "title": "Protected Branch Admin Enforced",
-    "description": "Protected Branch Admin Enforced",
-    "type": "object",
-    "properties": {
-        "url": {
-            "type": "string",
-            "format": "uri",
-            "example": "https://api.github.com/repos/octocat/Hello-World/branches/master/protection/enforce_admins"
-        },
-        "enabled": {
-            "type": "boolean",
-            "example": true
-        }
-    },
-    "required": [
-        "url",
-        "enabled"
-    ]
-}
-```
-
-### `#/components/examples/protected-branch-admin-enforced-2`
-
-```json
-{
-    "value": {
-        "url": "https://api.github.com/repos/octocat/Hello-World/branches/master/protection/enforce_admins",
-        "enabled": true
-    }
-}
-```
+- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
+- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
+- `branch` (string, required): The name of the branch. Cannot contain wildcard characters. To use wildcard characters in branch names, use [the GraphQL API](https://docs.github.com/graphql).
