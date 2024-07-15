@@ -2,8 +2,6 @@
 
 `GET /users/{username}/keys`
 
-Lists the _verified_ public SSH keys for a user. This is accessible by anyone.
-
 [API method documentation](https://docs.github.com/rest/users/keys#list-public-keys-for-a-user)
 
 ## All Parameters for "List public keys for a user"
@@ -15,3 +13,7 @@ Lists the _verified_ public SSH keys for a user. This is accessible by anyone.
 
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Lists the _verified_ public SSH keys for a user. This is accessible by anyone.

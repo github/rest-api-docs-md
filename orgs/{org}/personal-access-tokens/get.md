@@ -2,10 +2,6 @@
 
 `GET /orgs/{org}/personal-access-tokens`
 
-Lists approved fine-grained personal access tokens owned by organization members that can access organization resources.
-
-Only GitHub Apps can use this endpoint.
-
 [API method documentation](https://docs.github.com/rest/orgs/personal-access-tokens#list-fine-grained-personal-access-tokens-with-access-to-organization-resources)
 
 ## All Parameters for "List fine-grained personal access tokens with access to organization resources"
@@ -24,3 +20,9 @@ Only GitHub Apps can use this endpoint.
 - `permission` (string): The permission to use to filter the results.
 - `last_used_before` (string): Only show fine-grained personal access tokens used before the given time. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`.
 - `last_used_after` (string): Only show fine-grained personal access tokens used after the given time. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`.
+
+## Operation Description
+
+Lists approved fine-grained personal access tokens owned by organization members that can access organization resources.
+
+Only GitHub Apps can use this endpoint.

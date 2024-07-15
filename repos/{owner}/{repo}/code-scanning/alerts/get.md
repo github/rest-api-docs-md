@@ -2,14 +2,6 @@
 
 `GET /repos/{owner}/{repo}/code-scanning/alerts`
 
-Lists code scanning alerts.
-
-The response includes a `most_recent_instance` object.
-This provides details of the most recent instance of this alert
-for the default branch (or for the specified Git reference if you used `ref` in the request).
-
-OAuth app tokens and personal access tokens (classic) need the `security_events` scope to use this endpoint with private or public repositories, or the `public_repo` scope to use this endpoint with only public repositories.
-
 [API method documentation](https://docs.github.com/rest/code-scanning/code-scanning#list-code-scanning-alerts-for-a-repository)
 
 ## All Parameters for "List code scanning alerts for a repository"
@@ -29,3 +21,13 @@ OAuth app tokens and personal access tokens (classic) need the `security_events`
 - `sort` (string): The property by which to sort the results.
 - `state`: If specified, only code scanning alerts with this state will be returned.
 - `severity`: If specified, only code scanning alerts with this severity will be returned.
+
+## Operation Description
+
+Lists code scanning alerts.
+
+The response includes a `most_recent_instance` object.
+This provides details of the most recent instance of this alert
+for the default branch (or for the specified Git reference if you used `ref` in the request).
+
+OAuth app tokens and personal access tokens (classic) need the `security_events` scope to use this endpoint with private or public repositories, or the `public_repo` scope to use this endpoint with only public repositories.

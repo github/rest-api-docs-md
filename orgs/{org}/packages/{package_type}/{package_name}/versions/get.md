@@ -2,10 +2,6 @@
 
 `GET /orgs/{org}/packages/{package_type}/{package_name}/versions`
 
-Lists package versions for a package owned by an organization.
-
-OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint if the `package_type` belongs to a GitHub Packages registry that only supports repository-scoped permissions. For the list of these registries, see "[About permissions for GitHub Packages](https://docs.github.com/packages/learn-github-packages/about-permissions-for-github-packages#permissions-for-repository-scoped-packages)."
-
 [API method documentation](https://docs.github.com/rest/packages/packages#list-package-versions-for-a-package-owned-by-an-organization)
 
 ## All Parameters for "List package versions for a package owned by an organization"
@@ -20,3 +16,9 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `state` (string): The state of the package, either active or deleted.
+
+## Operation Description
+
+Lists package versions for a package owned by an organization.
+
+OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint if the `package_type` belongs to a GitHub Packages registry that only supports repository-scoped permissions. For the list of these registries, see "[About permissions for GitHub Packages](https://docs.github.com/packages/learn-github-packages/about-permissions-for-github-packages#permissions-for-repository-scoped-packages)."

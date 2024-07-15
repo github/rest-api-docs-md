@@ -2,8 +2,6 @@
 
 `GET /repos/{owner}/{repo}/deployments`
 
-Simple filtering of deployments is available via query parameters:
-
 [API method documentation](https://docs.github.com/rest/deployments/deployments#list-deployments)
 
 ## All Parameters for "List deployments"
@@ -20,3 +18,7 @@ Simple filtering of deployments is available via query parameters:
 - `environment` (string): The name of the environment that was deployed to (e.g., `staging` or `production`).
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Simple filtering of deployments is available via query parameters:

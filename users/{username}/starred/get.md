@@ -2,12 +2,6 @@
 
 `GET /users/{username}/starred`
 
-Lists repositories a user has starred.
-
-This endpoint supports the following custom media types. For more information, see "[Media types](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types)."
-
-- **`application/vnd.github.star+json`**: Includes a timestamp of when the star was created.
-
 [API method documentation](https://docs.github.com/rest/activity/starring#list-repositories-starred-by-a-user)
 
 ## All Parameters for "List repositories starred by a user"
@@ -21,3 +15,11 @@ This endpoint supports the following custom media types. For more information, s
 - `direction` (string): The direction to sort the results by.
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Lists repositories a user has starred.
+
+This endpoint supports the following custom media types. For more information, see "[Media types](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types)."
+
+- **`application/vnd.github.star+json`**: Includes a timestamp of when the star was created.

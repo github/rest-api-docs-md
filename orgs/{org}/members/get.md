@@ -2,8 +2,6 @@
 
 `GET /orgs/{org}/members`
 
-List all users who are members of an organization. If the authenticated user is also a member of this organization then both concealed and public members will be returned.
-
 [API method documentation](https://docs.github.com/rest/orgs/members#list-organization-members)
 
 ## All Parameters for "List organization members"
@@ -17,3 +15,7 @@ List all users who are members of an organization. If the authenticated user is 
 - `role` (string): Filter members returned by their role.
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+List all users who are members of an organization. If the authenticated user is also a member of this organization then both concealed and public members will be returned.

@@ -2,6 +2,18 @@
 
 `GET /repos/{owner}/{repo}/issues/{issue_number}`
 
+[API method documentation](https://docs.github.com/rest/issues/issues#get-an-issue)
+
+## All Parameters for "Get an issue"
+
+### Path Parameters
+
+- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
+- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
+- `issue_number` (integer, required): The number that identifies the issue.
+
+## Operation Description
+
 The API returns a [`301 Moved Permanently` status](https://docs.github.com/rest/guides/best-practices-for-using-the-rest-api#follow-redirects) if the issue was
 [transferred](https://docs.github.com/articles/transferring-an-issue-to-another-repository/) to another repository. If
 the issue was transferred to or deleted from a repository where the authenticated user lacks read access, the API
@@ -20,13 +32,3 @@ This endpoint supports the following custom media types. For more information, s
 - **`application/vnd.github.text+json`**: Returns a text only representation of the markdown body. Response will include `body_text`.
 - **`application/vnd.github.html+json`**: Returns HTML rendered from the body's markdown. Response will include `body_html`.
 - **`application/vnd.github.full+json`**: Returns raw, text, and HTML representations. Response will include `body`, `body_text`, and `body_html`.
-
-[API method documentation](https://docs.github.com/rest/issues/issues#get-an-issue)
-
-## All Parameters for "Get an issue"
-
-### Path Parameters
-
-- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
-- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
-- `issue_number` (integer, required): The number that identifies the issue.

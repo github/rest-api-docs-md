@@ -2,12 +2,6 @@
 
 `GET /repos/{owner}/{repo}/environments`
 
-Lists the environments for a repository.
-
-Anyone with read access to the repository can use this endpoint.
-
-OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint with a private repository.
-
 [API method documentation](https://docs.github.com/rest/deployments/environments#list-environments)
 
 ## All Parameters for "List environments"
@@ -20,3 +14,11 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Lists the environments for a repository.
+
+Anyone with read access to the repository can use this endpoint.
+
+OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint with a private repository.

@@ -2,11 +2,6 @@
 
 `GET /repos/{owner}/{repo}/activity`
 
-Lists a detailed history of changes to a repository, such as pushes, merges, force pushes, and branch changes, and associates these changes with commits and users.
-
-For more information about viewing repository activity,
-see "[Viewing activity and data for your repository](https://docs.github.com/repositories/viewing-activity-and-data-for-your-repository)."
-
 [API method documentation](https://docs.github.com/rest/repos/repos#list-repository-activities)
 
 ## All Parameters for "List repository activities"
@@ -31,3 +26,10 @@ For example, `day` will filter for activity that occurred in the past 24 hours, 
 - `activity_type` (string): The activity type to filter by.
 
 For example, you can choose to filter by "force_push", to see all force pushes to the repository.
+
+## Operation Description
+
+Lists a detailed history of changes to a repository, such as pushes, merges, force pushes, and branch changes, and associates these changes with commits and users.
+
+For more information about viewing repository activity,
+see "[Viewing activity and data for your repository](https://docs.github.com/repositories/viewing-activity-and-data-for-your-repository)."

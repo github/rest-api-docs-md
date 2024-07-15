@@ -2,6 +2,21 @@
 
 `GET /repos/{owner}/{repo}/contents/{path}`
 
+[API method documentation](https://docs.github.com/rest/repos/contents#get-repository-content)
+
+## All Parameters for "Get repository content"
+
+### Path Parameters
+
+- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
+- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
+- `path` (string, required): path parameter
+### Query Parameters
+
+- `ref` (string): The name of the commit/branch/tag. Default: the repository’s default branch.
+
+## Operation Description
+
 Gets the contents of a file or directory in a repository. Specify the file path or directory with the `path` parameter. If you omit the `path` parameter, you will receive the contents of the repository's root directory.
 
 This endpoint supports the following custom media types. For more information, see "[Media types](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types)."
@@ -27,16 +42,3 @@ more files, use the [Git Trees API](https://docs.github.com/rest/git/trees#get-a
   - Between 1-100 MB: Only the `raw` or `object` custom media types are supported. Both will work as normal, except that when using the `object` media type, the `content` field will be an empty
 string and the `encoding` field will be `"none"`. To get the contents of these larger files, use the `raw` media type.
   - Greater than 100 MB: This endpoint is not supported.
-
-[API method documentation](https://docs.github.com/rest/repos/contents#get-repository-content)
-
-## All Parameters for "Get repository content"
-
-### Path Parameters
-
-- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
-- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
-- `path` (string, required): path parameter
-### Query Parameters
-
-- `ref` (string): The name of the commit/branch/tag. Default: the repository’s default branch.

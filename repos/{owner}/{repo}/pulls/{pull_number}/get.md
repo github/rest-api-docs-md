@@ -2,6 +2,18 @@
 
 `GET /repos/{owner}/{repo}/pulls/{pull_number}`
 
+[API method documentation](https://docs.github.com/rest/pulls/pulls#get-a-pull-request)
+
+## All Parameters for "Get a pull request"
+
+### Path Parameters
+
+- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
+- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
+- `pull_number` (integer, required): The number that identifies the pull request.
+
+## Operation Description
+
 Draft pull requests are available in public repositories with GitHub Free and GitHub Free for organizations, GitHub Pro, and legacy per-repository billing plans, and in public and private repositories with GitHub Team and GitHub Enterprise Cloud. For more information, see [GitHub's products](https://docs.github.com/github/getting-started-with-github/githubs-products) in the GitHub Help documentation.
 
 Lists details of a pull request by providing its number.
@@ -25,13 +37,3 @@ This endpoint supports the following custom media types. For more information, s
 - **`application/vnd.github.html+json`**: Returns HTML rendered from the body's markdown. Response will include `body_html`.
 - **`application/vnd.github.full+json`**: Returns raw, text, and HTML representations. Response will include `body`, `body_text`, and `body_html`.
 - **`application/vnd.github.diff`**: For more information, see "[git-diff](https://git-scm.com/docs/git-diff)" in the Git documentation. If a diff is corrupt, contact us through the [GitHub Support portal](https://support.github.com/). Include the repository name and pull request ID in your message.
-
-[API method documentation](https://docs.github.com/rest/pulls/pulls#get-a-pull-request)
-
-## All Parameters for "Get a pull request"
-
-### Path Parameters
-
-- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
-- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
-- `pull_number` (integer, required): The number that identifies the pull request.

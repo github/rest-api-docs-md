@@ -2,6 +2,13 @@
 
 `GET /rate_limit`
 
+[API method documentation](https://docs.github.com/rest/rate-limit/rate-limit#get-rate-limit-status-for-the-authenticated-user)
+
+## All Parameters for "Get rate limit status for the authenticated user"
+
+
+## Operation Description
+
 **Note:** Accessing this endpoint does not count against your REST API rate limit.
 
 Some categories of endpoints have custom rate limits that are separate from the rate limit governing the other REST API endpoints. For this reason, the API response categorizes your rate limit. Under `resources`, you'll see objects relating to different categories:
@@ -16,7 +23,3 @@ Some categories of endpoints have custom rate limits that are separate from the 
 * The `source_import` object is no longer in use for any API endpoints, and it will be removed in the next API version. For more information about API versions, see "[API Versions](https://docs.github.com/rest/about-the-rest-api/api-versions)."
 
 **Note:** The `rate` object is deprecated. If you're writing new API client code or updating existing code, you should use the `core` object instead of the `rate` object. The `core` object contains the same information that is present in the `rate` object.
-
-[API method documentation](https://docs.github.com/rest/rate-limit/rate-limit#get-rate-limit-status-for-the-authenticated-user)
-
-## All Parameters for "Get rate limit status for the authenticated user"

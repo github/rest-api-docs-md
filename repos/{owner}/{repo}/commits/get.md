@@ -2,6 +2,27 @@
 
 `GET /repos/{owner}/{repo}/commits`
 
+[API method documentation](https://docs.github.com/rest/commits/commits#list-commits)
+
+## All Parameters for "List commits"
+
+### Path Parameters
+
+- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
+- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
+### Query Parameters
+
+- `sha` (string): SHA or branch to start listing commits from. Default: the repository’s default branch (usually `main`).
+- `path` (string): Only commits containing this file path will be returned.
+- `author` (string): GitHub username or email address to use to filter by commit author.
+- `committer` (string): GitHub username or email address to use to filter by commit committer.
+- `since` (string): Only show results that were last updated after the given time. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`. Due to limitations of Git, timestamps must be between 1970-01-01 and 2099-12-31 (inclusive) or unexpected results may be returned.
+- `until` (string): Only commits before this date will be returned. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`. Due to limitations of Git, timestamps must be between 1970-01-01 and 2099-12-31 (inclusive) or unexpected results may be returned.
+- `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+- `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
 **Signature verification object**
 
 The response will include a `verification` object that describes the result of verifying the commit's signature. The following fields are included in the `verification` object:
@@ -30,22 +51,3 @@ These are the possible values for `reason` in the `verification` object:
 | `malformed_signature` | There was an error parsing the signature. |
 | `invalid` | The signature could not be cryptographically verified using the key whose key-id was found in the signature. |
 | `valid` | None of the above errors applied, so the signature is considered to be verified. |
-
-[API method documentation](https://docs.github.com/rest/commits/commits#list-commits)
-
-## All Parameters for "List commits"
-
-### Path Parameters
-
-- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
-- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
-### Query Parameters
-
-- `sha` (string): SHA or branch to start listing commits from. Default: the repository’s default branch (usually `main`).
-- `path` (string): Only commits containing this file path will be returned.
-- `author` (string): GitHub username or email address to use to filter by commit author.
-- `committer` (string): GitHub username or email address to use to filter by commit committer.
-- `since` (string): Only show results that were last updated after the given time. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`. Due to limitations of Git, timestamps must be between 1970-01-01 and 2099-12-31 (inclusive) or unexpected results may be returned.
-- `until` (string): Only commits before this date will be returned. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`. Due to limitations of Git, timestamps must be between 1970-01-01 and 2099-12-31 (inclusive) or unexpected results may be returned.
-- `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
-- `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."

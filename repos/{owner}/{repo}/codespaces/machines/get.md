@@ -2,10 +2,6 @@
 
 `GET /repos/{owner}/{repo}/codespaces/machines`
 
-List the machine types available for a given repository based on its configuration.
-
-OAuth app tokens and personal access tokens (classic) need the `codespace` scope to use this endpoint.
-
 [API method documentation](https://docs.github.com/rest/codespaces/machines#list-available-machine-types-for-a-repository)
 
 ## All Parameters for "List available machine types for a repository"
@@ -19,3 +15,9 @@ OAuth app tokens and personal access tokens (classic) need the `codespace` scope
 - `location` (string): The location to check for available machines. Assigned by IP if not provided.
 - `client_ip` (string): IP for location auto-detection when proxying a request
 - `ref` (string): The branch or commit to check for prebuild availability and devcontainer restrictions.
+
+## Operation Description
+
+List the machine types available for a given repository based on its configuration.
+
+OAuth app tokens and personal access tokens (classic) need the `codespace` scope to use this endpoint.

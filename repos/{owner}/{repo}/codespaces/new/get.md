@@ -2,10 +2,6 @@
 
 `GET /repos/{owner}/{repo}/codespaces/new`
 
-Gets the default attributes for codespaces created by the user with the repository.
-
-OAuth app tokens and personal access tokens (classic) need the `codespace` scope to use this endpoint.
-
 [API method documentation](https://docs.github.com/rest/codespaces/codespaces#get-default-attributes-for-a-codespace)
 
 ## All Parameters for "Get default attributes for a codespace"
@@ -18,3 +14,9 @@ OAuth app tokens and personal access tokens (classic) need the `codespace` scope
 
 - `ref` (string): The branch or commit to check for a default devcontainer path. If not specified, the default branch will be checked.
 - `client_ip` (string): An alternative IP for default location auto-detection, such as when proxying a request.
+
+## Operation Description
+
+Gets the default attributes for codespaces created by the user with the repository.
+
+OAuth app tokens and personal access tokens (classic) need the `codespace` scope to use this endpoint.

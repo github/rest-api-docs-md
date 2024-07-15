@@ -2,12 +2,6 @@
 
 `GET /repos/{owner}/{repo}/actions/secrets/{secret_name}`
 
-Gets a single repository secret without revealing its encrypted value.
-
-The authenticated user must have collaborator access to the repository to use this endpoint.
-
-OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.
-
 [API method documentation](https://docs.github.com/rest/actions/secrets#get-a-repository-secret)
 
 ## All Parameters for "Get a repository secret"
@@ -17,3 +11,11 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 - `owner` (string, required): The account owner of the repository. The name is not case sensitive.
 - `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
 - `secret_name` (string, required): The name of the secret.
+
+## Operation Description
+
+Gets a single repository secret without revealing its encrypted value.
+
+The authenticated user must have collaborator access to the repository to use this endpoint.
+
+OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.

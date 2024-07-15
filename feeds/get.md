@@ -2,6 +2,13 @@
 
 `GET /feeds`
 
+[API method documentation](https://docs.github.com/rest/activity/feeds#get-feeds)
+
+## All Parameters for "Get feeds"
+
+
+## Operation Description
+
 Lists the feeds available to the authenticated user. The response provides a URL for each feed. You can then get a specific feed by sending a request to one of the feed URLs.
 
 *   **Timeline**: The GitHub global public timeline
@@ -15,7 +22,3 @@ Lists the feeds available to the authenticated user. The response provides a URL
 By default, timeline resources are returned in JSON. You can specify the `application/atom+xml` type in the `Accept` header to return timeline resources in Atom format. For more information, see "[Media types](https://docs.github.com/rest/using-the-rest-api/getting-started-with-the-rest-api#media-types)."
 
 **Note**: Private feeds are only returned when [authenticating via Basic Auth](https://docs.github.com/rest/authentication/authenticating-to-the-rest-api#using-basic-authentication) since current feed URIs use the older, non revocable auth tokens.
-
-[API method documentation](https://docs.github.com/rest/activity/feeds#get-feeds)
-
-## All Parameters for "Get feeds"

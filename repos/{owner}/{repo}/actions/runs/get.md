@@ -2,14 +2,6 @@
 
 `GET /repos/{owner}/{repo}/actions/runs`
 
-Lists all workflow runs for a repository. You can use parameters to narrow the list of results. For more information about using parameters, see [Parameters](https://docs.github.com/rest/guides/getting-started-with-the-rest-api#parameters).
-
-Anyone with read access to the repository can use this endpoint.
-
-OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint with a private repository.
-
-This API will return up to 1,000 results for each search when using the following parameters: `actor`, `branch`, `check_suite_id`, `created`, `event`, `head_sha`, `status`.
-
 [API method documentation](https://docs.github.com/rest/actions/workflow-runs#list-workflow-runs-for-a-repository)
 
 ## All Parameters for "List workflow runs for a repository"
@@ -30,3 +22,13 @@ This API will return up to 1,000 results for each search when using the followin
 - `exclude_pull_requests` (boolean): If `true` pull requests are omitted from the response (empty array).
 - `check_suite_id` (integer): Returns workflow runs with the `check_suite_id` that you specify.
 - `head_sha` (string): Only returns workflow runs that are associated with the specified `head_sha`.
+
+## Operation Description
+
+Lists all workflow runs for a repository. You can use parameters to narrow the list of results. For more information about using parameters, see [Parameters](https://docs.github.com/rest/guides/getting-started-with-the-rest-api#parameters).
+
+Anyone with read access to the repository can use this endpoint.
+
+OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint with a private repository.
+
+This API will return up to 1,000 results for each search when using the following parameters: `actor`, `branch`, `check_suite_id`, `created`, `event`, `head_sha`, `status`.

@@ -2,8 +2,6 @@
 
 `GET /repos/{owner}/{repo}/traffic/views`
 
-Get the total number of views and breakdown per day or week for the last 14 days. Timestamps are aligned to UTC midnight of the beginning of the day or week. Week begins on Monday.
-
 [API method documentation](https://docs.github.com/rest/metrics/traffic#get-page-views)
 
 ## All Parameters for "Get page views"
@@ -15,3 +13,7 @@ Get the total number of views and breakdown per day or week for the last 14 days
 ### Query Parameters
 
 - `per` (string): The time frame to display results for.
+
+## Operation Description
+
+Get the total number of views and breakdown per day or week for the last 14 days. Timestamps are aligned to UTC midnight of the beginning of the day or week. Week begins on Monday.

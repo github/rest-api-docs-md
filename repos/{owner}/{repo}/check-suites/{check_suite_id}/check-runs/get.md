@@ -2,12 +2,6 @@
 
 `GET /repos/{owner}/{repo}/check-suites/{check_suite_id}/check-runs`
 
-Lists check runs for a check suite using its `id`.
-
-**Note:** The endpoints to manage checks only look for pushes in the repository where the check suite or check run were created. Pushes to a branch in a forked repository are not detected and return an empty `pull_requests` array.
-
-OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint on a private repository.
-
 [API method documentation](https://docs.github.com/rest/checks/runs#list-check-runs-in-a-check-suite)
 
 ## All Parameters for "List check runs in a check suite"
@@ -24,3 +18,11 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 - `filter` (string): Filters check runs by their `completed_at` timestamp. `latest` returns the most recent check runs.
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Lists check runs for a check suite using its `id`.
+
+**Note:** The endpoints to manage checks only look for pushes in the repository where the check suite or check run were created. Pushes to a branch in a forked repository are not detected and return an empty `pull_requests` array.
+
+OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint on a private repository.

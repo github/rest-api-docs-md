@@ -2,8 +2,6 @@
 
 `GET /repos/{owner}/{repo}/assignees`
 
-Lists the [available assignees](https://docs.github.com/articles/assigning-issues-and-pull-requests-to-other-github-users/) for issues in a repository.
-
 [API method documentation](https://docs.github.com/rest/issues/assignees#list-assignees)
 
 ## All Parameters for "List assignees"
@@ -16,3 +14,7 @@ Lists the [available assignees](https://docs.github.com/articles/assigning-issue
 
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Lists the [available assignees](https://docs.github.com/articles/assigning-issues-and-pull-requests-to-other-github-users/) for issues in a repository.

@@ -2,8 +2,6 @@
 
 `GET /orgs/{org}/rulesets/{ruleset_id}`
 
-Get a repository ruleset for an organization.
-
 [API method documentation](https://docs.github.com/rest/orgs/rules#get-an-organization-repository-ruleset)
 
 ## All Parameters for "Get an organization repository ruleset"
@@ -12,3 +10,7 @@ Get a repository ruleset for an organization.
 
 - `org` (string, required): The organization name. The name is not case sensitive.
 - `ruleset_id` (integer, required): The ID of the ruleset.
+
+## Operation Description
+
+Get a repository ruleset for an organization.

@@ -2,12 +2,6 @@
 
 `GET /orgs/{org}/code-scanning/alerts`
 
-Lists code scanning alerts for the default branch for all eligible repositories in an organization. Eligible repositories are repositories that are owned by organizations that you own or for which you are a security manager. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."
-
-The authenticated user must be an owner or security manager for the organization to use this endpoint.
-
-OAuth app tokens and personal access tokens (classic) need the `security_events` or `repo`s cope to use this endpoint with private or public repositories, or the `public_repo` scope to use this endpoint with only public repositories.
-
 [API method documentation](https://docs.github.com/rest/code-scanning/code-scanning#list-code-scanning-alerts-for-an-organization)
 
 ## All Parameters for "List code scanning alerts for an organization"
@@ -27,3 +21,11 @@ OAuth app tokens and personal access tokens (classic) need the `security_events`
 - `state`: If specified, only code scanning alerts with this state will be returned.
 - `sort` (string): The property by which to sort the results.
 - `severity`: If specified, only code scanning alerts with this severity will be returned.
+
+## Operation Description
+
+Lists code scanning alerts for the default branch for all eligible repositories in an organization. Eligible repositories are repositories that are owned by organizations that you own or for which you are a security manager. For more information, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."
+
+The authenticated user must be an owner or security manager for the organization to use this endpoint.
+
+OAuth app tokens and personal access tokens (classic) need the `security_events` or `repo`s cope to use this endpoint with private or public repositories, or the `public_repo` scope to use this endpoint with only public repositories.

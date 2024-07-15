@@ -2,6 +2,18 @@
 
 `GET /repos/{owner}/{repo}/git/commits/{commit_sha}`
 
+[API method documentation](https://docs.github.com/rest/git/commits#get-a-commit-object)
+
+## All Parameters for "Get a commit object"
+
+### Path Parameters
+
+- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
+- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
+- `commit_sha` (string, required): The SHA of the commit.
+
+## Operation Description
+
 Gets a Git [commit object](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects).
 
 To get the contents of a commit, see "[Get a commit](/rest/commits/commits#get-a-commit)."
@@ -34,13 +46,3 @@ These are the possible values for `reason` in the `verification` object:
 | `malformed_signature` | There was an error parsing the signature. |
 | `invalid` | The signature could not be cryptographically verified using the key whose key-id was found in the signature. |
 | `valid` | None of the above errors applied, so the signature is considered to be verified. |
-
-[API method documentation](https://docs.github.com/rest/git/commits#get-a-commit-object)
-
-## All Parameters for "Get a commit object"
-
-### Path Parameters
-
-- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
-- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
-- `commit_sha` (string, required): The SHA of the commit.

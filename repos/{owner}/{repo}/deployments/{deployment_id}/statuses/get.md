@@ -2,8 +2,6 @@
 
 `GET /repos/{owner}/{repo}/deployments/{deployment_id}/statuses`
 
-Users with pull access can view deployment statuses for a deployment:
-
 [API method documentation](https://docs.github.com/rest/deployments/statuses#list-deployment-statuses)
 
 ## All Parameters for "List deployment statuses"
@@ -17,3 +15,7 @@ Users with pull access can view deployment statuses for a deployment:
 
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Users with pull access can view deployment statuses for a deployment:

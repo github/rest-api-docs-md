@@ -2,8 +2,6 @@
 
 `GET /orgs/{org}/blocks`
 
-List the users blocked by an organization.
-
 [API method documentation](https://docs.github.com/rest/orgs/blocking#list-users-blocked-by-an-organization)
 
 ## All Parameters for "List users blocked by an organization"
@@ -15,3 +13,7 @@ List the users blocked by an organization.
 
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+List the users blocked by an organization.

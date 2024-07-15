@@ -2,8 +2,6 @@
 
 `GET /repos/{owner}/{repo}/comments/{comment_id}/reactions`
 
-List the reactions to a [commit comment](https://docs.github.com/rest/commits/comments#get-a-commit-comment).
-
 [API method documentation](https://docs.github.com/rest/reactions/reactions#list-reactions-for-a-commit-comment)
 
 ## All Parameters for "List reactions for a commit comment"
@@ -18,3 +16,7 @@ List the reactions to a [commit comment](https://docs.github.com/rest/commits/co
 - `content` (string): Returns a single [reaction type](https://docs.github.com/rest/reactions/reactions#about-reactions). Omit this parameter to list all reactions to a commit comment.
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+List the reactions to a [commit comment](https://docs.github.com/rest/commits/comments#get-a-commit-comment).

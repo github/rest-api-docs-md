@@ -2,10 +2,6 @@
 
 `GET /user/repos`
 
-Lists repositories that the authenticated user has explicit permission (`:read`, `:write`, or `:admin`) to access.
-
-The authenticated user has explicit permission to access repositories they own, repositories where they are a collaborator, and repositories that they can access through an organization membership.
-
 [API method documentation](https://docs.github.com/rest/repos/repos#list-repositories-for-the-authenticated-user)
 
 ## All Parameters for "List repositories for the authenticated user"
@@ -24,3 +20,9 @@ The authenticated user has explicit permission to access repositories they own, 
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `since` (string): Only show repositories updated after the given time. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`.
 - `before` (string): Only show repositories updated before the given time. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`.
+
+## Operation Description
+
+Lists repositories that the authenticated user has explicit permission (`:read`, `:write`, or `:admin`) to access.
+
+The authenticated user has explicit permission to access repositories they own, repositories where they are a collaborator, and repositories that they can access through an organization membership.

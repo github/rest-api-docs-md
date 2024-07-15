@@ -2,6 +2,18 @@
 
 `GET /repos/{owner}/{repo}/git/tags/{tag_sha}`
 
+[API method documentation](https://docs.github.com/rest/git/tags#get-a-tag)
+
+## All Parameters for "Get a tag"
+
+### Path Parameters
+
+- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
+- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
+- `tag_sha` (string, required)
+
+## Operation Description
+
 **Signature verification object**
 
 The response will include a `verification` object that describes the result of verifying the commit's signature. The following fields are included in the `verification` object:
@@ -30,13 +42,3 @@ These are the possible values for `reason` in the `verification` object:
 | `malformed_signature` | There was an error parsing the signature. |
 | `invalid` | The signature could not be cryptographically verified using the key whose key-id was found in the signature. |
 | `valid` | None of the above errors applied, so the signature is considered to be verified. |
-
-[API method documentation](https://docs.github.com/rest/git/tags#get-a-tag)
-
-## All Parameters for "Get a tag"
-
-### Path Parameters
-
-- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
-- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
-- `tag_sha` (string, required)

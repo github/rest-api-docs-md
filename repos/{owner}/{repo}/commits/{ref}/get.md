@@ -2,6 +2,22 @@
 
 `GET /repos/{owner}/{repo}/commits/{ref}`
 
+[API method documentation](https://docs.github.com/rest/commits/commits#get-a-commit)
+
+## All Parameters for "Get a commit"
+
+### Path Parameters
+
+- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
+- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
+- `ref` (string, required): The commit reference. Can be a commit SHA, branch name (`heads/BRANCH_NAME`), or tag name (`tags/TAG_NAME`). For more information, see "[Git References](https://git-scm.com/book/en/v2/Git-Internals-Git-References)" in the Git documentation.
+### Query Parameters
+
+- `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+- `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
 Returns the contents of a single commit reference. You must have `read` access for the repository to use this endpoint.
 
 **Note:** If there are more than 300 files in the commit diff and the default JSON media type is requested, the response will include pagination link headers for the remaining files, up to a limit of 3000 files. Each page contains the static commit information, and the only changes are to the file listing.
@@ -40,17 +56,3 @@ These are the possible values for `reason` in the `verification` object:
 | `malformed_signature` | There was an error parsing the signature. |
 | `invalid` | The signature could not be cryptographically verified using the key whose key-id was found in the signature. |
 | `valid` | None of the above errors applied, so the signature is considered to be verified. |
-
-[API method documentation](https://docs.github.com/rest/commits/commits#get-a-commit)
-
-## All Parameters for "Get a commit"
-
-### Path Parameters
-
-- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
-- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
-- `ref` (string, required): The commit reference. Can be a commit SHA, branch name (`heads/BRANCH_NAME`), or tag name (`tags/TAG_NAME`). For more information, see "[Git References](https://git-scm.com/book/en/v2/Git-Internals-Git-References)" in the Git documentation.
-### Query Parameters
-
-- `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
-- `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."

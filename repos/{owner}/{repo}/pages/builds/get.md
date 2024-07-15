@@ -2,10 +2,6 @@
 
 `GET /repos/{owner}/{repo}/pages/builds`
 
-Lists builts of a GitHub Pages site.
-
-OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.
-
 [API method documentation](https://docs.github.com/rest/pages/pages#list-apiname-pages-builds)
 
 ## All Parameters for "List GitHub Pages builds"
@@ -18,3 +14,9 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Lists builts of a GitHub Pages site.
+
+OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.

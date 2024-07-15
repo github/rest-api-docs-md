@@ -2,13 +2,6 @@
 
 `GET /repos/{owner}/{repo}/environments/{environment_name}/secrets`
 
-Lists all secrets available in an environment without revealing their
-encrypted values.
-
-Authenticated users must have collaborator access to a repository to create, update, or read secrets.
-
-OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.
-
 [API method documentation](https://docs.github.com/rest/actions/secrets#list-environment-secrets)
 
 ## All Parameters for "List environment secrets"
@@ -22,3 +15,12 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Lists all secrets available in an environment without revealing their
+encrypted values.
+
+Authenticated users must have collaborator access to a repository to create, update, or read secrets.
+
+OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.

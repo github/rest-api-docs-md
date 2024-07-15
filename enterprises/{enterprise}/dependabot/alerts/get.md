@@ -2,14 +2,6 @@
 
 `GET /enterprises/{enterprise}/dependabot/alerts`
 
-Lists Dependabot alerts for repositories that are owned by the specified enterprise.
-
-The authenticated user must be a member of the enterprise to use this endpoint.
-
-Alerts are only returned for organizations in the enterprise for which you are an organization owner or a security manager. For more information about security managers, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."
-
-OAuth app tokens and personal access tokens (classic) need the `repo` or `security_events` scope to use this endpoint.
-
 [API method documentation](https://docs.github.com/rest/dependabot/alerts#list-dependabot-alerts-for-an-enterprise)
 
 ## All Parameters for "List Dependabot alerts for an enterprise"
@@ -43,3 +35,13 @@ Instead, use `per_page` in combination with `after` to fetch the first page of r
 This parameter must not be used in combination with `first`.
 Instead, use `per_page` in combination with `before` to fetch the last page of results.
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Lists Dependabot alerts for repositories that are owned by the specified enterprise.
+
+The authenticated user must be a member of the enterprise to use this endpoint.
+
+Alerts are only returned for organizations in the enterprise for which you are an organization owner or a security manager. For more information about security managers, see "[Managing security managers in your organization](https://docs.github.com/organizations/managing-peoples-access-to-your-organization-with-roles/managing-security-managers-in-your-organization)."
+
+OAuth app tokens and personal access tokens (classic) need the `repo` or `security_events` scope to use this endpoint.

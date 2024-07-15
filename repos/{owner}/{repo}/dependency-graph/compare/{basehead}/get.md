@@ -2,8 +2,6 @@
 
 `GET /repos/{owner}/{repo}/dependency-graph/compare/{basehead}`
 
-Gets the diff of the dependency changes between two commits of a repository, based on the changes to the dependency manifests made in those commits.
-
 [API method documentation](https://docs.github.com/rest/dependency-graph/dependency-review#get-a-diff-of-the-dependencies-between-commits)
 
 ## All Parameters for "Get a diff of the dependencies between commits"
@@ -16,3 +14,7 @@ Gets the diff of the dependency changes between two commits of a repository, bas
 ### Query Parameters
 
 - `name` (string): The full path, relative to the repository root, of the dependency manifest file.
+
+## Operation Description
+
+Gets the diff of the dependency changes between two commits of a repository, based on the changes to the dependency manifests made in those commits.

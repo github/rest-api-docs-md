@@ -2,8 +2,6 @@
 
 `GET /repos/{owner}/{repo}/notifications`
 
-Lists all notifications for the current user in the specified repository.
-
 [API method documentation](https://docs.github.com/rest/activity/notifications#list-repository-notifications-for-the-authenticated-user)
 
 ## All Parameters for "List repository notifications for the authenticated user"
@@ -20,3 +18,7 @@ Lists all notifications for the current user in the specified repository.
 - `before` (string): Only show notifications updated before the given time. This is a timestamp in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) format: `YYYY-MM-DDTHH:MM:SSZ`.
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Lists all notifications for the current user in the specified repository.

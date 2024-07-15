@@ -2,10 +2,6 @@
 
 `GET /users/{username}/packages/{package_type}/{package_name}/versions/{package_version_id}`
 
-Gets a specific package version for a public package owned by a specified user.
-
-OAuth app tokens and personal access tokens (classic) need the `read:packages` scope to use this endpoint. If the `package_type` belongs to a GitHub Packages registry that only supports repository-scoped permissions, the `repo` scope is also required. For the list of these registries, see "[About permissions for GitHub Packages](https://docs.github.com/packages/learn-github-packages/about-permissions-for-github-packages#permissions-for-repository-scoped-packages)."
-
 [API method documentation](https://docs.github.com/rest/packages/packages#get-a-package-version-for-a-user)
 
 ## All Parameters for "Get a package version for a user"
@@ -16,3 +12,9 @@ OAuth app tokens and personal access tokens (classic) need the `read:packages` s
 - `package_name` (string, required): The name of the package.
 - `package_version_id` (integer, required): Unique identifier of the package version.
 - `username` (string, required): The handle for the GitHub user account.
+
+## Operation Description
+
+Gets a specific package version for a public package owned by a specified user.
+
+OAuth app tokens and personal access tokens (classic) need the `read:packages` scope to use this endpoint. If the `package_type` belongs to a GitHub Packages registry that only supports repository-scoped permissions, the `repo` scope is also required. For the list of these registries, see "[About permissions for GitHub Packages](https://docs.github.com/packages/learn-github-packages/about-permissions-for-github-packages#permissions-for-repository-scoped-packages)."

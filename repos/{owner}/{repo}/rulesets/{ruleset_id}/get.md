@@ -2,8 +2,6 @@
 
 `GET /repos/{owner}/{repo}/rulesets/{ruleset_id}`
 
-Get a ruleset for a repository.
-
 [API method documentation](https://docs.github.com/rest/repos/rules#get-a-repository-ruleset)
 
 ## All Parameters for "Get a repository ruleset"
@@ -16,3 +14,7 @@ Get a ruleset for a repository.
 ### Query Parameters
 
 - `includes_parents` (boolean): Include rulesets configured at higher levels that apply to this repository
+
+## Operation Description
+
+Get a ruleset for a repository.

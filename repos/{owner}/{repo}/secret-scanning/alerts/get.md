@@ -2,12 +2,6 @@
 
 `GET /repos/{owner}/{repo}/secret-scanning/alerts`
 
-Lists secret scanning alerts for an eligible repository, from newest to oldest.
-
-The authenticated user must be an administrator for the repository or for the organization that owns the repository to use this endpoint.
-
-OAuth app tokens and personal access tokens (classic) need the `repo` or `security_events` scope to use this endpoint. If this endpoint is only used with public repositories, the token can use the `public_repo` scope instead.
-
 [API method documentation](https://docs.github.com/rest/secret-scanning/secret-scanning#list-secret-scanning-alerts-for-a-repository)
 
 ## All Parameters for "List secret scanning alerts for a repository"
@@ -30,3 +24,11 @@ for a complete list of secret types.
 - `before` (string): A cursor, as given in the [Link header](https://docs.github.com/rest/guides/using-pagination-in-the-rest-api#using-link-headers). If specified, the query only searches for events before this cursor. To receive an initial cursor on your first request, include an empty "before" query string.
 - `after` (string): A cursor, as given in the [Link header](https://docs.github.com/rest/guides/using-pagination-in-the-rest-api#using-link-headers). If specified, the query only searches for events after this cursor.  To receive an initial cursor on your first request, include an empty "after" query string.
 - `validity` (string): A comma-separated list of validities that, when present, will return alerts that match the validities in this list. Valid options are `active`, `inactive`, and `unknown`.
+
+## Operation Description
+
+Lists secret scanning alerts for an eligible repository, from newest to oldest.
+
+The authenticated user must be an administrator for the repository or for the organization that owns the repository to use this endpoint.
+
+OAuth app tokens and personal access tokens (classic) need the `repo` or `security_events` scope to use this endpoint. If this endpoint is only used with public repositories, the token can use the `public_repo` scope instead.

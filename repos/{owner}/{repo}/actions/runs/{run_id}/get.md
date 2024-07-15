@@ -2,12 +2,6 @@
 
 `GET /repos/{owner}/{repo}/actions/runs/{run_id}`
 
-Gets a specific workflow run.
-
-Anyone with read access to the repository can use this endpoint.
-
-OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint with a private repository.
-
 [API method documentation](https://docs.github.com/rest/actions/workflow-runs#get-a-workflow-run)
 
 ## All Parameters for "Get a workflow run"
@@ -20,3 +14,11 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 ### Query Parameters
 
 - `exclude_pull_requests` (boolean): If `true` pull requests are omitted from the response (empty array).
+
+## Operation Description
+
+Gets a specific workflow run.
+
+Anyone with read access to the repository can use this endpoint.
+
+OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint with a private repository.

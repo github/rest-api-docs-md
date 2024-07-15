@@ -2,12 +2,6 @@
 
 `GET /repos/{owner}/{repo}/actions/workflows/{workflow_id}/runs`
 
-List all workflow runs for a workflow. You can replace `workflow_id` with the workflow file name. For example, you could use `main.yaml`. You can use parameters to narrow the list of results. For more information about using parameters, see [Parameters](https://docs.github.com/rest/guides/getting-started-with-the-rest-api#parameters).
-
-Anyone with read access to the repository can use this endpoint
-
-OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint with a private repository.
-
 [API method documentation](https://docs.github.com/rest/actions/workflow-runs#list-workflow-runs-for-a-workflow)
 
 ## All Parameters for "List workflow runs for a workflow"
@@ -29,3 +23,11 @@ OAuth app tokens and personal access tokens (classic) need the `repo` scope to u
 - `exclude_pull_requests` (boolean): If `true` pull requests are omitted from the response (empty array).
 - `check_suite_id` (integer): Returns workflow runs with the `check_suite_id` that you specify.
 - `head_sha` (string): Only returns workflow runs that are associated with the specified `head_sha`.
+
+## Operation Description
+
+List all workflow runs for a workflow. You can replace `workflow_id` with the workflow file name. For example, you could use `main.yaml`. You can use parameters to narrow the list of results. For more information about using parameters, see [Parameters](https://docs.github.com/rest/guides/getting-started-with-the-rest-api#parameters).
+
+Anyone with read access to the repository can use this endpoint
+
+OAuth app tokens and personal access tokens (classic) need the `repo` scope to use this endpoint with a private repository.

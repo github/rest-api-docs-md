@@ -2,6 +2,17 @@
 
 `GET /repos/{owner}/{repo}/import`
 
+[API method documentation](https://docs.github.com/rest/migrations/source-imports#get-an-import-status)
+
+## All Parameters for "Get an import status"
+
+### Path Parameters
+
+- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
+- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.
+
+## Operation Description
+
 View the progress of an import.
 
 **Warning:** Due to very low levels of usage and available alternatives, this endpoint is deprecated and will no longer be available from 00:00 UTC on April 12, 2024. For more details and alternatives, see the [changelog](https://gh.io/source-imports-api-deprecation).
@@ -38,12 +49,3 @@ This section includes details about Git LFS related fields that may be present i
 *   `has_large_files` - the boolean value describing whether files larger than 100MB were found during the `importing` step.
 *   `large_files_size` - the total size in gigabytes of files larger than 100MB found in the originating repository.
 *   `large_files_count` - the total number of files larger than 100MB found in the originating repository. To see a list of these files, make a "Get Large Files" request.
-
-[API method documentation](https://docs.github.com/rest/migrations/source-imports#get-an-import-status)
-
-## All Parameters for "Get an import status"
-
-### Path Parameters
-
-- `owner` (string, required): The account owner of the repository. The name is not case sensitive.
-- `repo` (string, required): The name of the repository without the `.git` extension. The name is not case sensitive.

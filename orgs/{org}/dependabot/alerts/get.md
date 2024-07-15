@@ -2,12 +2,6 @@
 
 `GET /orgs/{org}/dependabot/alerts`
 
-Lists Dependabot alerts for an organization.
-
-The authenticated user must be an owner or security manager for the organization to use this endpoint.
-
-OAuth app tokens and personal access tokens (classic) need the `security_events` scope to use this endpoint. If this endpoint is only used with public repositories, the token can use the `public_repo` scope instead.
-
 [API method documentation](https://docs.github.com/rest/dependabot/alerts#list-dependabot-alerts-for-an-organization)
 
 ## All Parameters for "List Dependabot alerts for an organization"
@@ -41,3 +35,11 @@ Instead, use `per_page` in combination with `after` to fetch the first page of r
 This parameter must not be used in combination with `first`.
 Instead, use `per_page` in combination with `before` to fetch the last page of results.
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Lists Dependabot alerts for an organization.
+
+The authenticated user must be an owner or security manager for the organization to use this endpoint.
+
+OAuth app tokens and personal access tokens (classic) need the `security_events` scope to use this endpoint. If this endpoint is only used with public repositories, the token can use the `public_repo` scope instead.

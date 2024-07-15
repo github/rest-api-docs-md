@@ -2,12 +2,6 @@
 
 `GET /orgs/{org}/code-security/configurations/{configuration_id}/repositories`
 
-Lists the repositories associated with a code security configuration in an organization.
-
-The authenticated user must be an administrator or security manager for the organization to use this endpoint.
-
-OAuth app tokens and personal access tokens (classic) need the `write:org` scope to use this endpoint.
-
 [API method documentation](https://docs.github.com/rest/code-security/configurations#get-repositories-associated-with-a-code-security-configuration)
 
 ## All Parameters for "Get repositories associated with a code security configuration"
@@ -24,3 +18,11 @@ OAuth app tokens and personal access tokens (classic) need the `write:org` scope
 - `status` (string): A comma-separated list of statuses. If specified, only repositories with these attachment statuses will be returned.
 
 Can be: `all`, `attached`, `attaching`, `detached`, `enforced`, `failed`, `updating`
+
+## Operation Description
+
+Lists the repositories associated with a code security configuration in an organization.
+
+The authenticated user must be an administrator or security manager for the organization to use this endpoint.
+
+OAuth app tokens and personal access tokens (classic) need the `write:org` scope to use this endpoint.

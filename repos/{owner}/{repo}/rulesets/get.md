@@ -2,8 +2,6 @@
 
 `GET /repos/{owner}/{repo}/rulesets`
 
-Get all the rulesets for a repository.
-
 [API method documentation](https://docs.github.com/rest/repos/rules#get-all-repository-rulesets)
 
 ## All Parameters for "Get all repository rulesets"
@@ -17,3 +15,7 @@ Get all the rulesets for a repository.
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `includes_parents` (boolean): Include rulesets configured at higher levels that apply to this repository
+
+## Operation Description
+
+Get all the rulesets for a repository.

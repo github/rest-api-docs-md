@@ -2,10 +2,6 @@
 
 `GET /repos/{owner}/{repo}/actions/caches`
 
-Lists the GitHub Actions caches for a repository.
-
-OAuth tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.
-
 [API method documentation](https://docs.github.com/rest/actions/cache#list-github-actions-caches-for-a-repository)
 
 ## All Parameters for "List GitHub Actions caches for a repository"
@@ -22,3 +18,9 @@ OAuth tokens and personal access tokens (classic) need the `repo` scope to use t
 - `key` (string): An explicit key or prefix for identifying the cache
 - `sort` (string): The property to sort the results by. `created_at` means when the cache was created. `last_accessed_at` means when the cache was last accessed. `size_in_bytes` is the size of the cache in bytes.
 - `direction` (string): The direction to sort the results by.
+
+## Operation Description
+
+Lists the GitHub Actions caches for a repository.
+
+OAuth tokens and personal access tokens (classic) need the `repo` scope to use this endpoint.

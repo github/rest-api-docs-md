@@ -2,8 +2,6 @@
 
 `GET /repos/{owner}/{repo}/hooks`
 
-Lists webhooks for a repository. `last response` may return null if there have not been any deliveries within 30 days.
-
 [API method documentation](https://docs.github.com/rest/repos/webhooks#list-repository-webhooks)
 
 ## All Parameters for "List repository webhooks"
@@ -16,3 +14,7 @@ Lists webhooks for a repository. `last response` may return null if there have n
 
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
+
+## Operation Description
+
+Lists webhooks for a repository. `last response` may return null if there have not been any deliveries within 30 days.
