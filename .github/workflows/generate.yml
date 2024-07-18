@@ -32,6 +32,7 @@ jobs:
 
       - name: 'Run code generation'
         run: |
+          echo $(pwd)
           python ../.github/workflows/generate.py ../rest-api-description/descriptions/api.github.com/api.github.com.json .
 
       - uses: stefanzweifel/git-auto-commit-action@v4
