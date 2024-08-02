@@ -18,4 +18,5 @@ Protected branches are available in public repositories with GitHub Free and Git
 
 Lists who has access to this protected branch.
 
-**Note**: Users, apps, and teams `restrictions` are only available for organization-owned repositories.
+> [!NOTE]
+> Users, apps, and teams `restrictions` are only available for organization-owned repositories.

@@ -12,7 +12,8 @@
 
 ## Operation Description
 
-**Note**: This endpoint is in beta and is subject to change.
+> [!NOTE]
+> This endpoint is in beta and is subject to change.
 
 Gets information about an organization's Copilot subscription, including seat breakdown
 and feature policies. To configure these settings, go to your organization's settings on GitHub.com.

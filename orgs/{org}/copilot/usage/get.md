@@ -18,7 +18,8 @@
 
 ## Operation Description
 
-**Note**: This endpoint is in beta and is subject to change.
+> [!NOTE]
+> This endpoint is in beta and is subject to change.
 
 You can use this endpoint to see a daily breakdown of aggregated usage metrics for Copilot completions and Copilot Chat in the IDE
 across an organization, with a further breakdown of suggestions, acceptances, and number of active users by editor and language for each day.

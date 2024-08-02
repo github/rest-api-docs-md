@@ -17,5 +17,5 @@
 
 ## Operation Description
 
-**Note**: This API is not built to serve real-time use cases. Depending on the time of day, event latency can be anywhere from 30s to 6h.
-
+> [!NOTE]
+> This API is not built to serve real-time use cases. Depending on the time of day, event latency can be anywhere from 30s to 6h.

@@ -17,3 +17,6 @@
 ## Operation Description
 
 If you are authenticated as the given user, you will see your private events. Otherwise, you'll only see public events.
+
+> [!NOTE]
+> This API is not built to serve real-time use cases. Depending on the time of day, event latency can be anywhere from 30s to 6h.

@@ -13,9 +13,7 @@
 
 ## Operation Description
 
-
 Returns a weekly aggregate of the number of additions and deletions pushed to a repository.
 
-**Note:** This endpoint can only be used for repositories with fewer than 10,000 commits. If the repository contains
-10,000 or more commits, a 422 status code will be returned.
-
+> [!NOTE]
+> This endpoint can only be used for repositories with fewer than 10,000 commits. If the repository contains 10,000 or more commits, a 422 status code will be returned.

@@ -16,7 +16,8 @@
 
 ## Operation Description
 
-**Note**: This endpoint is in beta and is subject to change.
+> [!NOTE]
+> This endpoint is in beta and is subject to change.
 
 Lists all active Copilot seats for an organization with a Copilot Business or Copilot Enterprise subscription.
 Only organization owners can view assigned seats.

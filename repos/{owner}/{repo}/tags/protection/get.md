@@ -13,8 +13,8 @@
 
 ## Operation Description
 
-**Note**: This operation is deprecated and will be removed after August 30th 2024
-Use the "[Repository Rulesets](https://docs.github.com/rest/repos/rules#get-all-repository-rulesets)" endpoint instead.
+> [!WARNING]
+> **Deprecation notice:** This operation is deprecated and will be removed after August 30, 2024. Use the "[Repository Rulesets](https://docs.github.com/rest/repos/rules#get-all-repository-rulesets)" endpoint instead.
 
 This returns the tag protection states of a repository.
 
