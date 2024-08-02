@@ -8,7 +8,12 @@
 
 ### Query Parameters
 
-- `q` (string, required): The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as the web interface for GitHub. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query).
+- `q` (string, required): The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as the web interface for GitHub. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query). The following qualifiers are supported in the query string:
+    - `repositories`: matches topics based on the number of repositores (e.g. `repositories:>5000`)
+    - `created`: matches topics based on when they were created (e.g. `created:>2020-01-01`)
+    - `is`: matches on a variety of attributes
+        - curated topics (`is:curated`, `is:not-curated`)
+        - featured topics (`is:featured`, `is:not-featured`)
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 

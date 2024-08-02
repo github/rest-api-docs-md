@@ -8,7 +8,18 @@
 
 ### Query Parameters
 
-- `q` (string, required): The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as the web interface for GitHub. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query). See "[Searching users](https://docs.github.com/search-github/searching-on-github/searching-users)" for a detailed list of qualifiers.
+- `q` (string, required): The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as the web interface for GitHub. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query). See "[Searching users](https://docs.github.com/search-github/searching-on-github/searching-users)" for a detailed list of qualifiers. The following qualifiers are supported in the query string:
+    - `type`: matches only users (`type:user`) or only organizations (`type:org`)
+    - `user`: matches users with a particular username (e.g. `user:octocat`)
+    - `org`: matches organizations with a particular account name (e.g. `org:github`)
+    - `in`: searches only the username (`in:login`), only the real name (`in:name`), or only the email (`in:email`), or only the README (`in:readme`)
+    - `repos`: matches users by the number of repositories they own (e.g. `repos:>9000`)
+    - `location`: matches users by the location indicated in their profile (e.g. `location:iceland`)
+    - `language`: matches users based on the languages of repositories they own (e.g. `language:javascript`)
+    - `created`: matches users based on when they joined GitHub (e.g. `created<2013-03-06`)
+    - `followers`: matches users based on the number of followers they have (e.g. `followers:1..10`)
+    - `is`: matches on a variety of attributes
+        - sponsorable users (`is:sponsorable`)
 - `sort` (string): Sorts the results of your query by number of `followers` or `repositories`, or when the person `joined` GitHub. Default: [best match](https://docs.github.com/rest/search/search#ranking-search-results)
 - `order` (string): Determines whether the first search result returned is the highest number of matches (`desc`) or lowest number of matches (`asc`). This parameter is ignored unless you provide `sort`.
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
