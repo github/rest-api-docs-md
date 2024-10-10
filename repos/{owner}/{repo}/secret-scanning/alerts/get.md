@@ -14,7 +14,7 @@
 
 - `state` (string): Set to `open` or `resolved` to only list secret scanning alerts in a specific state.
 - `secret_type` (string): A comma-separated list of secret types to return. By default all secret types are returned.
-See "[Secret scanning patterns](https://docs.github.com/code-security/secret-scanning/secret-scanning-patterns#supported-secrets-for-advanced-security)"
+See "[Supported secret scanning patterns](https://docs.github.com/code-security/secret-scanning/introduction/supported-secret-scanning-patterns#supported-secrets)"
 for a complete list of secret types.
 - `resolution` (string): A comma-separated list of resolutions. Only secret scanning alerts with one of these resolutions are listed. Valid resolutions are `false_positive`, `wont_fix`, `revoked`, `pattern_edited`, `pattern_deleted` or `used_in_tests`.
 - `sort` (string): The property to sort the results by. `created` means when the alert was created. `updated` means when the alert was updated or resolved.

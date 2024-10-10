@@ -25,7 +25,7 @@ You can use this endpoint to see a daily breakdown of aggregated usage metrics f
 for all users across organizations with access to Copilot within your enterprise, with a further breakdown of suggestions, acceptances,
 and number of active users by editor and language for each day. See the response schema tab for detailed metrics definitions.
 
-The response contains metrics for the prior 28 days. Usage metrics are processed once per day for the previous day,
+The response contains metrics for up to 28 days prior. Usage metrics are processed once per day for the previous day,
 and the response will only include data up until yesterday. In order for an end user to be counted towards these metrics,
 they must have telemetry enabled in their IDE.
 

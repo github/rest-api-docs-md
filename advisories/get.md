@@ -30,6 +30,10 @@ For more information on the syntax of the date range, see "[Understanding the se
 - `modified` (string): If specified, only show advisories that were updated or published on a date or date range.
 
 For more information on the syntax of the date range, see "[Understanding the search syntax](https://docs.github.com/search-github/getting-started-with-searching-on-github/understanding-the-search-syntax#query-for-dates)."
+- `epss_percentage` (string): If specified, only return advisories that have an EPSS percentage score that matches the provided value.
+The EPSS percentage represents the likelihood of a CVE being exploited.
+- `epss_percentile` (string): If specified, only return advisories that have an EPSS percentile score that matches the provided value.
+The EPSS percentile represents the relative rank of the CVE's likelihood of being exploited compared to other CVEs.
 - `before` (string): A cursor, as given in the [Link header](https://docs.github.com/rest/guides/using-pagination-in-the-rest-api#using-link-headers). If specified, the query only searches for results before this cursor. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `after` (string): A cursor, as given in the [Link header](https://docs.github.com/rest/guides/using-pagination-in-the-rest-api#using-link-headers). If specified, the query only searches for results after this cursor. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `direction` (string): The direction to sort the results by.

@@ -18,3 +18,6 @@
 ## Operation Description
 
 Get a ruleset for a repository.
+
+**Note:** To prevent leaking sensitive information, the `bypass_actors` property is only returned if the user
+making the API request has write access to the ruleset.

@@ -9,7 +9,7 @@
 ### Path Parameters
 
 - `org` (string, required): The organization name. The name is not case sensitive.
-- `custom_property_name` (string, required): The custom property name. The name is case sensitive.
+- `custom_property_name` (string, required): The custom property name
 
 ## Operation Description
 

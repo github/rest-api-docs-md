@@ -15,6 +15,10 @@
 - `per_page` (integer): The number of results per page (max 100). For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `page` (integer): The page number of the results to fetch. For more information, see "[Using pagination in the REST API](https://docs.github.com/rest/using-the-rest-api/using-pagination-in-the-rest-api)."
 - `includes_parents` (boolean): Include rulesets configured at higher levels that apply to this repository
+- `targets` (string): A comma-separated list of rule targets to filter by.
+If provided, only rulesets that apply to the specified targets will be returned.
+For example, `branch,tag,push`.
+
 
 ## Operation Description
 
