@@ -8,7 +8,7 @@
 
 ### Query Parameters
 
-- `q` (string, required): The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports the same qualifiers as the web interface for GitHub. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query). See "[Searching code](https://docs.github.com/search-github/searching-on-github/searching-code)" for a detailed list of qualifiers. The following qualifiers are supported in the query string:
+- `q` (string, required): The query contains one or more search keywords and qualifiers. Qualifiers allow you to limit your search to specific areas of GitHub. The REST API supports different qualifiers than the web interface for GitHub. To learn more about the format of the query, see [Constructing a search query](https://docs.github.com/rest/search/search#constructing-a-search-query). See "[Searching code](https://docs.github.com/search-github/searching-on-github/searching-code)" for a detailed list of qualifiers. The following qualifiers are supported in the query string:
     - `in`: searches only the file contents (`in:file`), only the path (`in:path`) or both (`in:file,path`)
     - `user`: matches code in repos owned by the given user
     - `org`: matches code in repos owned by the given organization
